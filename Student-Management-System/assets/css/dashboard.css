@@ -1,4 +1,12 @@
 /* ---------------Main---------------- */
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
 main{
     margin:0;
     padding:0;
@@ -19,7 +27,7 @@ main{
 
 .section1{
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 1rem;
     height: auto;
     width: 100%;

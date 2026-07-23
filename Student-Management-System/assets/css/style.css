@@ -112,74 +112,37 @@ nav> ul> li{
 }
 
 /* ---------------Main---------------- */
-main{
-    margin:0;
-    padding:0;
-    width:100%;
-    height:100%;
-    flex:1;
+
+.sidebar-footer {
+    display: none;
+    padding: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1); /* Une ligne fine de séparation au-dessus */
+    text-align: center;
+    font-size: 0.85rem;
+    color: #666;
 }
 
-.third-container{
+.school-brand {
     display: flex;
-    flex-direction: column;
-    flex:1;
-    width:100%;
-    height:100%;
-    /* padding:1rem 2rem; */
-    /* background-color: chocolate; ; */
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+    color: var(--text-color);
 }
 
-.section1{
-    display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-    height: auto;
-    width: 100%;
-    /* padding: 1rem; */
-    /* background-color: blanchedalmond; */
-    flex:1;
+.logo-badge {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.75rem;
 }
 
-.card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8{
-    height: 7rem;
-    background-color: gainsboro;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
-}
-
-.section2{
-    display: flex;
-    flex-wrap: nowrap;
-    gap:1rem;
-    height: auto;
-    width: 100%;
-    /* padding: 1rem; */
-    flex:1;
-    /* background-color: burlywood; */
-}
-
-.card9{
-    /* background-color: #e95b1e; */
-    width: 60%;
-    height: 100%;
-}
- 
-.card10{
-    /* background-color: aquamarine; */
-    width: 40%;
-    height: 20rem;
-    
-}
-
-.card9,.card10{
-    background-color: gainsboro;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    /* flex:1; */
+.footer-copy {
+    font-size: 0.75rem;
+    color: #888;
 }
 
 @media screen and (max-width: 768px) {
