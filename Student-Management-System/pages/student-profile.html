@@ -3,12 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student profile</title>
-   <link rel="stylesheet" href="../assets/css/student-profile.css">
+    <title>Student Profile</title>
+    <link rel="stylesheet" href="../assets/css/student-profile.css">
 </head>
 <body>
-    <aside></aside>
-    <main class=""></main>
+    <div class="top-info-bar">
+    <div class="info-item">
+        <span class="info-label">Student ID</span>
+        <span class="info-value" id="student-id"></span>
+    </div>
+    <div class="info-item">
+        <span class="info-label">Email</span>
+        <span class="info-value" id="email"></span>
+    </div>
+    <div class="info-item">
+        <span class="info-label">Phone</span>
+        <span class="info-value" id="phone"></span>
+    </div>
+    <div class="info-item">
+        <span class="info-label">Address</span>
+        <span class="info-value" id="address"></span>
+    </div>
+    </div>
+    <div class="main-container">
+        <aside class="aside-container">
+            <div class="photo-container">
+                <div class="photo"></div>
+            </div>
+            <h2 id="name">Edmond</h2>
+            <div class="info">
+                <!-- <p><strong>Student ID:</strong> <span id="student-id"></span></p>
+                <p><strong>Email:</strong> <span id="email"></span></p>
+                <p><strong>Phone:</strong> <span id="phone"></span></p>
+                <p><strong>Address:</strong> <span id="address"></span></p> -->
+            </div>
+        </aside>
+    <main class="main-content">
+        <!-- En-tête avec le menu déroulant des classes -->
+        <div class="content-header">
+            <h3>Academic History & Performance</h3>
+            <div class="class-selector-wrapper">
+                <label for="class-select">Classe :</label>
+                <select id="class-select">
+                    <!-- Rempli dynamiquement par JavaScript avec les classes de l'étudiant -->
+                </select>
+            </div>
+        </div>
+
+        <!-- Grille des indicateurs clés (Diplôme, Niveau, Moyenne, Rang, Trophées) -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <span class="stat-label">Diplôme visé / obtenu</span>
+                <span class="stat-value" id="stat-diploma">--</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-label">Niveau</span>
+                <span class="stat-value" id="stat-level">--</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-label">Moyenne</span>
+                <span class="stat-value" id="stat-average">--</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-label">Rang</span>
+                <span class="stat-value" id="stat-rank">--</span>
+            </div>
+        </div>
+
+        <!-- Bloc des activités récentes et trophées -->
+        <div class="bottom-split-container">
+            <div class="detail-section recent-activities">
+                <h4>Activités récentes</h4>
+                <ul id="activities-list">
+                    <!-- Chargé dynamiquement via JS -->
+                    <li>Chargement des activités...</li>
+                </ul>
+            </div>
+            <div class="detail-section trophies-section">
+                <h4>Trophées & Distinctions</h4>
+                <div id="trophies-container" class="trophies-flex">
+                    <!-- Chargé dynamiquement via JS -->
+                    <span class="no-trophy">Aucun trophée pour le moment</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    </div>
     <script src="../assets/js/student-profile.js"></script>
+    
 </body>
 </html>
