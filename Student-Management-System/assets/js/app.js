@@ -10,7 +10,7 @@ navLinks.forEach(link => {
         const pageName = link.textContent.trim().toLowerCase();
         
         // Simule le chargement du fichier HTML correspondant depuis le dossier pages/
-        // (Tu pourras utiliser fetch() plus tard, ou injecter un contenu de test)
+        // (On pourras utiliser fetch() plus tard, ou injecter un contenu de test)
         fetch(`pages/${pageName}.html`)
             .then(response => {
                 if (!response.ok) throw new Error("Page introuvable");
