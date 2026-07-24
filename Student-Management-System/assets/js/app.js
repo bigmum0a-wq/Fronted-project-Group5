@@ -17,8 +17,12 @@ navLinks.forEach(link => {
                 return response.text();
             })
             .then(html => {
-                mainContainer.innerHTML = html; // Remplace le contenu de la zone de droite
-            })
+    mainContainer.innerHTML = html; // Remplace le contenu de la zone de droite
+
+    if (pageName === 'attendance' && window.initAttendancePage) {
+        window.initAttendancePage();
+    }
+})
             .catch(error => {
                 mainContainer.innerHTML = `<h2>Chargement de ${pageName} en cours...</h2><p>Le fichier sera bientôt disponible.</p>`;
             });
