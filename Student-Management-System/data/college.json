@@ -1,0 +1,906 @@
+[
+  {
+    "id": "COL001",
+    "name": "Lucas Bernard",
+    "email": "lucas.bernard@college.com",
+    "phone": "+33 6 12 34 56 78",
+    "address": "Paris, 12e Arrondissement",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "6ème A",
+        "diploma": "Entrée au collège",
+        "level": "Collège",
+        "average": "14.5",
+        "rank": "3e / 30",
+        "activities": ["Club Lecture"],
+        "trophies": ["🏆 Encouragements"]
+      }
+    ]
+  },
+  {
+    "id": "COL002",
+    "name": "Inès Benali",
+    "email": "ines.benali@college.com",
+    "phone": "+33 6 98 76 54 32",
+    "address": "Lyon, 3e Arrondissement",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "5ème B",
+        "diploma": "Validation 6ème",
+        "level": "Collège",
+        "average": "16.2",
+        "rank": "1er / 28",
+        "activities": ["Chorale"],
+        "trophies": ["🥇 Tableau d'honneur"]
+      }
+    ]
+  },
+  {
+    "id": "COL003",
+    "name": "Nathan Moreau",
+    "email": "nathan.moreau@college.com",
+    "phone": "+33 6 45 55 66 77",
+    "address": "Marseille, Secteur Nord",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "4ème C",
+        "diploma": "Validation 5ème",
+        "level": "Collège",
+        "average": "12.8",
+        "rank": "12e / 32",
+        "activities": ["Club Informatique"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "COL004",
+    "name": "Chloé Petit",
+    "email": "chloe.petit@college.com",
+    "phone": "+33 6 11 22 33 44",
+    "address": "Bordeaux, Centre",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "3ème A",
+        "diploma": "Brevet en cours",
+        "level": "Collège",
+        "average": "15.0",
+        "rank": "4e / 30",
+        "activities": ["Déléguée de classe"],
+        "trophies": ["🥈 Félicitations"]
+      }
+    ]
+  },
+  {
+    "id": "COL005",
+    "name": "Arthur Dupont",
+    "email": "arthur.dupont@college.com",
+    "phone": "+33 6 22 33 44 55",
+    "address": "Nantes, Centre",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "6ème B",
+        "level": "Collège",
+        "average": "13.4",
+        "rank": "8e / 29",
+        "activities": ["Club Dessin"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "COL006",
+    "name": "Sarah Diallo",
+    "email": "sarah.diallo@college.com",
+    "phone": "+33 6 33 44 55 66",
+    "address": "Lille, Flandres",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "5ème A",
+        "level": "Collège",
+        "average": "15.8",
+        "rank": "2e / 31",
+        "activities": ["Équipe de Basket"],
+        "trophies": ["🥇 Médaille sportive"]
+      }
+    ]
+  },
+  {
+    "id": "COL007",
+    "name": "Thomas Garnier",
+    "email": "thomas.garnier@college.com",
+    "phone": "+33 6 44 55 66 77",
+    "address": "Strasbourg, Krutenau",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "4ème A",
+        "level": "Collège",
+        "average": "11.9",
+        "rank": "15e / 27",
+        "activities": ["Club Échecs"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "COL008",
+    "name": "Emma Riviere",
+    "email": "emma.riviere@college.com",
+    "phone": "+33 6 55 66 77 88",
+    "address": "Rennes, Centre",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "3ème B",
+        "level": "Collège",
+        "average": "16.5",
+        "rank": "1er / 30",
+        "activities": ["Journal du collège"],
+        "trophies": ["🏆 Prix d'excellence"]
+      }
+    ]
+  },
+  {
+    "id": "COL009",
+    "name": "Hugo Lefevre",
+    "email": "hugo.lefevre@college.com",
+    "phone": "+33 6 66 77 88 99",
+    "address": "Montpellier, Comédie",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "6ème C",
+        "level": "Collège",
+        "average": "12.5",
+        "rank": "14e / 28",
+        "activities": ["Club Théâtre"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "COL010",
+    "name": "Manon Simon",
+    "email": "manon.simon@college.com",
+    "phone": "+33 6 77 88 99 00",
+    "address": "Nice, Promenade",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "5ème C",
+        "level": "Collège",
+        "average": "14.1",
+        "rank": "6e / 26",
+        "activities": ["Club Environnement"],
+        "trophies": ["🥈 Prix vert"]
+      }
+    ]
+  },
+  {
+    "id": "COL011",
+    "name": "Louis Michel",
+    "email": "louis.michel@college.com",
+    "phone": "+33 6 88 99 00 11",
+    "address": "Toulouse, Saint-Cyprien",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "4ème B",
+        "level": "Collège",
+        "average": "13.0",
+        "rank": "10e / 29",
+        "activities": ["Section Foot"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "COL012",
+    "name": "Camille Leroy",
+    "email": "camille.leroy@college.com",
+    "phone": "+33 6 99 00 11 22",
+    "address": "Lyon, Part-Dieu",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "3ème C",
+        "level": "Collège",
+        "average": "15.4",
+        "rank": "3e / 31",
+        "activities": ["Club Scientifique"],
+        "trophies": ["🏆 Prix de Physique"]
+      }
+    ]
+  },
+  {
+    "id": "COL013",
+    "name": "Gabriel David",
+    "email": "gabriel.david@college.com",
+    "phone": "+33 6 01 02 03 04",
+    "address": "Paris, Bastille",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "6ème A",
+        "level": "Collège",
+        "average": "14.0",
+        "rank": "7e / 30",
+        "activities": ["Chorale"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "COL014",
+    "name": "Jade Bertrand",
+    "email": "jade.bertrand@college.com",
+    "phone": "+33 6 11 12 13 14",
+    "address": "Marseille, Vieux-Port",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "5ème B",
+        "level": "Collège",
+        "average": "13.8",
+        "rank": "9e / 28",
+        "activities": ["Club Danse"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "COL015",
+    "name": "Raphaël Bonnet",
+    "email": "raphael.bonnet@college.com",
+    "phone": "+33 6 22 23 24 25",
+    "address": "Bordeaux, Saint-Jean",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "4ème C",
+        "level": "Collège",
+        "average": "15.2",
+        "rank": "4e / 32",
+        "activities": ["Club Robotique"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "COL016",
+    "name": "Louise Gautier",
+    "email": "louise.gautier@college.com",
+    "phone": "+33 6 33 34 35 36",
+    "address": "Nantes, Talensac",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "3ème A",
+        "level": "Collège",
+        "average": "16.8",
+        "rank": "1er / 30",
+        "activities": ["Conseil des élèves"],
+        "trophies": ["🏆 Major de promo"]
+      }
+    ]
+  },
+  {
+    "id": "COL017",
+    "name": "Jules Faure",
+    "email": "jules.faure@college.com",
+    "phone": "+33 6 44 45 46 47",
+    "address": "Lille, République",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "6ème B",
+        "level": "Collège",
+        "average": "11.8",
+        "rank": "20e / 29",
+        "activities": ["Club Jeux de société"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "COL018",
+    "name": "Alice Andre",
+    "email": "alice.andre@college.com",
+    "phone": "+33 6 55 56 57 58",
+    "address": "Strasbourg, Gare",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "5ème A",
+        "level": "Collège",
+        "average": "14.9",
+        "rank": "5e / 31",
+        "activities": ["Club Anglais"],
+        "trophies": ["🥈 Prix de langues"]
+      }
+    ]
+  },
+  {
+    "id": "COL019",
+    "name": "Maël Mercier",
+    "email": "mael.mercier@college.com",
+    "phone": "+33 6 66 67 68 69",
+    "address": "Rennes, Villejean",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "4ème A",
+        "level": "Collège",
+        "average": "13.6",
+        "rank": "11e / 27",
+        "activities": ["Club Basket"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "COL020",
+    "name": "Rose Blanc",
+    "email": "rose.blanc@college.com",
+    "phone": "+33 6 77 78 79 80",
+    "address": "Montpellier, Antigone",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "3ème B",
+        "level": "Collège",
+        "average": "15.1",
+        "rank": "5e / 30",
+        "activities": ["Club Arts Plastiques"],
+        "trophies": ["🏆 Prix d'Art"]
+      }
+    ]
+  },
+  {
+    "id": "COL021",
+    "name": "Adam Guerin",
+    "email": "adam.guerin@college.com",
+    "phone": "+33 6 88 89 90 91",
+    "address": "Nice, Port",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "6ème C",
+        "level": "Collège",
+        "average": "13.1",
+        "rank": "11e / 28",
+        "activities": ["Club Foot"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "COL022",
+    "name": "Lina Henry",
+    "email": "lina.henry@college.com",
+    "phone": "+33 6 99 90 01 12",
+    "address": "Toulouse, Capitole",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "5ème C",
+        "level": "Collège",
+        "average": "15.3",
+        "rank": "3e / 26",
+        "activities": ["Club Lecture"],
+        "trophies": ["🥇 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "COL023",
+    "name": "Sacha Roussel",
+    "email": "sacha.roussel@college.com",
+    "phone": "+33 6 10 20 30 40",
+    "address": "Lyon, Bellecour",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "4ème B",
+        "level": "Collège",
+        "average": "12.4",
+        "rank": "16e / 29",
+        "activities": ["Club Informatique"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "COL024",
+    "name": "Mia Masson",
+    "email": "mia.masson@college.com",
+    "phone": "+33 6 20 30 40 50",
+    "address": "Paris, Montmartre",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "3ème C",
+        "level": "Collège",
+        "average": "14.8",
+        "rank": "7e / 31",
+        "activities": ["Club Cinéma"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "COL025",
+    "name": "Noah Marchand",
+    "email": "noah.marchand@college.com",
+    "phone": "+33 6 30 40 50 60",
+    "address": "Marseille, Prado",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "6ème A",
+        "level": "Collège",
+        "average": "15.0",
+        "rank": "4e / 30",
+        "activities": ["Club Natation"],
+        "trophies": ["🏆 Médaille d'or natation"]
+      }
+    ]
+  },
+  {
+    "id": "COL026",
+    "name": "Agathe Duchamp",
+    "email": "agathe.duchamp@college.com",
+    "phone": "+33 6 40 50 60 70",
+    "address": "Bordeaux, Chartrons",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "5ème B",
+        "level": "Collège",
+        "average": "16.0",
+        "rank": "2e / 28",
+        "activities": ["Chorale"],
+        "trophies": ["🥇 Tableau d'honneur"]
+      }
+    ]
+  },
+  {
+    "id": "COL027",
+    "name": "Liam Chevalier",
+    "email": "liam.chevalier@college.com",
+    "phone": "+33 6 50 60 70 80",
+    "address": "Nantes, Île de Nantes",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "4ème C",
+        "level": "Collège",
+        "average": "13.2",
+        "rank": "13e / 32",
+        "activities": ["Club Échecs"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "COL028",
+    "name": "Zoé Collin",
+    "email": "zoe.collin@college.com",
+    "phone": "+33 6 60 70 80 90",
+    "address": "Lille, Wazemmes",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "3ème A",
+        "level": "Collège",
+        "average": "15.6",
+        "rank": "2e / 30",
+        "activities": ["Club Journalisme"],
+        "trophies": ["🥈 Prix de rédaction"]
+      }
+    ]
+  },
+  {
+    "id": "COL029",
+    "name": "Ethan Vidal",
+    "email": "ethan.vidal@college.com",
+    "phone": "+33 6 70 80 90 01",
+    "address": "Strasbourg, Esplanade",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "6ème B",
+        "level": "Collège",
+        "average": "12.0",
+        "rank": "19e / 29",
+        "activities": ["Club Dessin"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "COL030",
+    "name": "Eva Carlier",
+    "email": "eva.carlier@college.com",
+    "phone": "+33 6 80 90 01 12",
+    "address": "Rennes, Beaulieu",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "5ème A",
+        "level": "Collège",
+        "average": "14.2",
+        "rank": "7e / 31",
+        "activities": ["Club Sciences"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "COL031",
+    "name": "Lucas Perrin",
+    "email": "lucas.perrin@college.com",
+    "phone": "+33 6 90 01 12 23",
+    "address": "Montpellier, Mosson",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "4ème A",
+        "level": "Collège",
+        "average": "13.8",
+        "rank": "9e / 27",
+        "activities": ["Club Foot"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "COL032",
+    "name": "Charlotte Roger",
+    "email": "charlotte.roger@college.com",
+    "phone": "+33 6 01 12 23 34",
+    "address": "Nice, Cimiez",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "3ème B",
+        "level": "Collège",
+        "average": "15.9",
+        "rank": "3e / 30",
+        "activities": ["Club Théâtre"],
+        "trophies": ["🏆 Prix d'interprétation"]
+      }
+    ]
+  },
+  {
+    "id": "COL033",
+    "name": "Nathan Renard",
+    "email": "nathan.renard@college.com",
+    "phone": "+33 6 12 23 34 45",
+    "address": "Toulouse, Rangueil",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "6ème C",
+        "level": "Collège",
+        "average": "13.5",
+        "rank": "10e / 28",
+        "activities": ["Club Nature"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "COL034",
+    "name": "Inès Lemoine",
+    "email": "ines.lemoine@college.com",
+    "phone": "+33 6 23 34 45 56",
+    "address": "Lyon, Vaise",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "5ème C",
+        "level": "Collège",
+        "average": "14.6",
+        "rank": "5e / 26",
+        "activities": ["Club Lecture"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "COL035",
+    "name": "Timéo Picard",
+    "email": "timeo.picard@college.com",
+    "phone": "+33 6 34 45 56 67",
+    "address": "Paris, Belleville",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "4ème B",
+        "level": "Collège",
+        "average": "12.7",
+        "rank": "17e / 29",
+        "activities": ["Club Informatique"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "COL036",
+    "name": "Léna Hubert",
+    "email": "lena.hubert@college.com",
+    "phone": "+33 6 45 56 67 78",
+    "address": "Marseille, La Canebière",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "3ème C",
+        "level": "Collège",
+        "average": "15.3",
+        "rank": "6e / 31",
+        "activities": ["Déléguée adjointe"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "COL037",
+    "name": "Aaron Marchal",
+    "email": "aaron.marchal@college.com",
+    "phone": "+33 6 56 67 78 89",
+    "address": "Bordeaux, Mériadeck",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "6ème A",
+        "level": "Collège",
+        "average": "14.3",
+        "rank": "6e / 30",
+        "activities": ["Club Basket"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "COL038",
+    "name": "Romane Dupuis",
+    "email": "romane.dupuis@college.com",
+    "phone": "+33 6 67 78 89 90",
+    "address": "Nantes, Erdre",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "5ème B",
+        "level": "Collège",
+        "average": "15.1",
+        "rank": "4e / 28",
+        "activities": ["Chorale"],
+        "trophies": ["🥇 Prix musical"]
+      }
+    ]
+  },
+  {
+    "id": "COL039",
+    "name": "Enzo Meunier",
+    "email": "enzo.meunier@college.com",
+    "phone": "+33 6 78 89 90 01",
+    "address": "Lille, Fives",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "4ème C",
+        "level": "Collège",
+        "average": "13.4",
+        "rank": "14e / 32",
+        "activities": ["Club Robotique"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "COL040",
+    "name": "Victoria Lefort",
+    "email": "victoria.lefort@college.com",
+    "phone": "+33 6 89 90 01 12",
+    "address": "Strasbourg, Robertsau",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "3ème A",
+        "level": "Collège",
+        "average": "16.1",
+        "rank": "2e / 30",
+        "activities": ["Journal du collège"],
+        "trophies": ["🏆 Prix d'excellence"]
+      }
+    ]
+  },
+  {
+    "id": "COL041",
+    "name": "Nolan Rey",
+    "email": "nolan.rey@college.com",
+    "phone": "+33 6 90 01 12 23",
+    "address": "Rennes, Centre-Gare",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "6ème B",
+        "level": "Collège",
+        "average": "12.9",
+        "rank": "16e / 29",
+        "activities": ["Club Échecs"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "COL042",
+    "name": "Clara Brun",
+    "email": "clara.brun@college.com",
+    "phone": "+33 6 01 12 23 34",
+    "address": "Montpellier, Les Cévennes",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "5ème A",
+        "level": "Collège",
+        "average": "15.4",
+        "rank": "3e / 31",
+        "activities": ["Club Danse"],
+        "trophies": ["🥇 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "COL043",
+    "name": "Mathis Reynaud",
+    "email": "mathis.reynaud@college.com",
+    "phone": "+33 6 12 23 34 45",
+    "address": "Nice, Libération",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "4ème A",
+        "level": "Collège",
+        "average": "14.0",
+        "rank": "8e / 27",
+        "activities": ["Club Foot"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "COL044",
+    "name": "Juliette Paul",
+    "email": "juliette.paul@college.com",
+    "phone": "+33 6 23 34 45 56",
+    "address": "Toulouse, Saint-Michel",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "3ème B",
+        "level": "Collège",
+        "average": "14.7",
+        "rank": "8e / 30",
+        "activities": ["Club Arts Plastiques"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "COL045",
+    "name": "Liam Gautier",
+    "email": "liam.gautier@college.com",
+    "phone": "+33 6 34 45 56 67",
+    "address": "Lyon, Croix-Rousse",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "6ème C",
+        "level": "Collège",
+        "average": "13.7",
+        "rank": "9e / 28",
+        "activities": ["Club Lecture"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "COL046",
+    "name": "Sarah Pires",
+    "email": "sarah.pires@college.com",
+    "phone": "+33 6 45 56 67 78",
+    "address": "Paris, République",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "5ème C",
+        "level": "Collège",
+        "average": "15.0",
+        "rank": "4e / 26",
+        "activities": ["Club Sciences"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "COL047",
+    "name": "Hugo Caron",
+    "email": "hugo.caron@college.com",
+    "phone": "+33 6 56 67 78 89",
+    "address": "Marseille, Endoume",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "4ème B",
+        "level": "Collège",
+        "average": "11.5",
+        "rank": "21e / 29",
+        "activities": ["Club Jeux"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "COL048",
+    "name": "Camille Bonnet",
+    "email": "camille.bonnet@college.com",
+    "phone": "+33 6 67 78 89 90",
+    "address": "Bordeaux, Caudéran",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "3ème C",
+        "level": "Collège",
+        "average": "16.4",
+        "rank": "2e / 31",
+        "activities": ["Conseil des délégués"],
+        "trophies": ["🏆 Prix d'honneur"]
+      }
+    ]
+  },
+  {
+    "id": "COL049",
+    "name": "Théo Lemaire",
+    "email": "theo.lemaire@college.com",
+    "phone": "+33 6 78 89 90 01",
+    "address": "Nantes, Malakoff",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "6ème A",
+        "level": "Collège",
+        "average": "14.6",
+        "rank": "5e / 30",
+        "activities": ["Club Natation"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "COL050",
+    "name": "Manon Mercier",
+    "email": "manon.mercier@college.com",
+    "phone": "+33 6 89 90 01 12",
+    "address": "Lille, Centre",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "5ème B",
+        "level": "Collège",
+        "average": "15.7",
+        "rank": "3e / 28",
+        "activities": ["Chorale"],
+        "trophies": ["🥇 Mention Bien"]
+      }
+    ]
+  }
+]

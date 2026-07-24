@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    box-sizing: border-box;
+}
+
+.students-container {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.students-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.students-header h2 {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 1.4rem;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+}
+
+/* Barre de filtres */
+.filter-toolbar {
+    display: flex;
+    gap: 15px;
+    background-color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.filter-group, .search-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.filter-toolbar label {
+    font-size: 0.9rem;
+    color: #555;
+    font-weight: 600;
+}
+
+.filter-toolbar select, .filter-toolbar input {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    background-color: #fff;
+}
+
+.search-group input {
+    width: 250px;
+}
+
+/* Tableau */
+.table-responsive {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    overflow-x: auto;
+}
+
+.students-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 0.95rem;
+}
+
+.students-table th, .students-table td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #eee;
+}
+
+.students-table th {
+    background-color: #f8f9fa;
+    color: #2c3e50;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+}
+
+.students-table tr:hover {
+    background-color: #f9fbfd;
+}
+
+.table-avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #e2e8f0;
+}
+
+.loading-text {
+    text-align: center;
+    color: #888;
+    font-style: italic;
+}
+
+/* Bouton action lien profil */
+.btn-view {
+    background-color: #2ecc71;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+.btn-view:hover {
+    background-color: #27ae60;
+}

@@ -1,13 +1,101 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Students</title>
+    <title>School Management - Students</title>
     <link rel="stylesheet" href="../assets/css/students.css">
 </head>
 <body>
-    
+    <div class="students-container">
+        <!-- En-tête de la page avec titre et bouton d'action -->
+        <div class="students-header">
+            <h2>Gestion des Étudiants</h2>
+            <button id="open-modal-btn" class="btn-primary">+ Ajouter un étudiant</button>
+        </div>
+
+        <!-- Barre de filtres : Sélection du cycle (JSON) et filtre de classe -->
+        <div class="filter-toolbar">
+            <div class="filter-group">
+                <label for="cycle-select">Cycle :</label>
+                <select id="cycle-select">
+                    <option value="college.json">Collège</option>
+                    <option value="lycee.json" selected>Lycée</option>
+                    <option value="licence.json">Licence</option>
+                    <option value="master.json">Master</option>
+                    <option value="doctorat.json">Doctorat</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="class-filter">Classe spécifique :</label>
+                <select id="class-filter">
+                    <option value="all">Toutes les classes</option>
+                    <!-- Dynamique selon le cycle -->
+                </select>
+            </div>
+            <div class="search-group">
+                <input type="text" id="search-input" placeholder="Rechercher par nom ou ID...">
+            </div>
+        </div>
+
+        <!-- Tableau d'affichage des étudiants -->
+        <div class="table-responsive">
+            <table class="students-table">
+                <thead>
+                    <tr>
+                        <th>Photo</th>
+                        <th>ID</th>
+                        <th>Nom complet</th>
+                        <th>Email</th>
+                        <th>Téléphone</th>
+                        <th>Adresse</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="students-table-body">
+                    <!-- Les lignes seront injectées dynamiquement par JavaScript -->
+                    <tr>
+                        <td colspan="7" class="loading-text">Chargement des données...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Modal d'ajout d'un étudiant -->
+    <div id="add-student-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <h3>Ajouter un nouvel étudiant</h3>
+            <form id="add-student-form">
+                <div class="form-group">
+                    <label for="new-id">ID :</label>
+                    <input type="text" id="new-id" required placeholder="Ex: LYC051">
+                </div>
+                <div class="form-group">
+                    <label for="new-name">Nom complet :</label>
+                    <input type="text" id="new-name" required placeholder="Prénom et Nom">
+                </div>
+                <div class="form-group">
+                    <label for="new-email">Email :</label>
+                    <input type="email" id="new-email" required placeholder="email@school.com">
+                </div>
+                <div class="form-group">
+                    <label for="new-phone">Téléphone :</label>
+                    <input type="text" id="new-phone" required placeholder="+226 ...">
+                </div>
+                <div class="form-group">
+                    <label for="new-address">Adresse :</label>
+                    <input type="text" id="new-address" required placeholder="Ville, Secteur">
+                </div>
+                <div class="modal-actions">
+                    <button type="submit" class="btn-save">Enregistrer</button>
+                    <button type="button" id="close-modal-btn" class="btn-cancel">Annuler</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
     <script src="../assets/js/students.js"></script>
 </body>
 </html>

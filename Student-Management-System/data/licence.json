@@ -1,0 +1,902 @@
+[
+  {
+    "id": "LIC001",
+    "name": "Jean-Marc Ouedraogo",
+    "email": "jeanmarc.ouedraogo@univ.com",
+    "phone": "+226 70 12 34 56",
+    "address": "Koudougou, Secteur 3",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 1 - Informatique",
+        "level": "Licence",
+        "average": "14.2",
+        "rank": "10e / 120",
+        "activities": ["Club Code"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC002",
+    "name": "Élodie Martin",
+    "email": "elodie.martin@univ.com",
+    "phone": "+33 6 12 34 56 78",
+    "address": "Lyon, Campus Lyon 1",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 2 - Réseaux et Télécoms",
+        "level": "Licence",
+        "average": "15.5",
+        "rank": "3e / 90",
+        "activities": ["Cisco Academy"],
+        "trophies": ["🥇 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "LIC003",
+    "name": "Windmi Compaoré",
+    "email": "windmi.compaore@univ.com",
+    "phone": "+226 71 89 00 11",
+    "address": "Ouagadougou, Zogona",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 3 - Génie Logiciel",
+        "level": "Licence",
+        "average": "16.8",
+        "rank": "1er / 75",
+        "activities": ["Club Hackathon", "Open Source"],
+        "trophies": ["🏆 Major de promo", "🥇 Premier Prix Code"]
+      }
+    ]
+  },
+  {
+    "id": "LIC004",
+    "name": "Lucas Bernard",
+    "email": "lucas.bernard@univ.com",
+    "phone": "+33 6 98 76 54 32",
+    "address": "Paris, Jussieu",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 1 - Mathématiques",
+        "level": "Licence",
+        "average": "13.1",
+        "rank": "22e / 150",
+        "activities": ["Club Échecs"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC005",
+    "name": "Mariam Sanfo",
+    "email": "mariam.sanfo@univ.com",
+    "phone": "+226 76 44 33 22",
+    "address": "Koudougou, Universitaire",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 2 - Droit",
+        "level": "Licence",
+        "average": "14.0",
+        "rank": "8e / 110",
+        "activities": ["Club Débat"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC006",
+    "name": "Thomas Leroy",
+    "email": "thomas.leroy@univ.com",
+    "phone": "+33 6 45 55 66 77",
+    "address": "Bordeaux, Talence",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 3 - Informatique",
+        "level": "Licence",
+        "average": "15.0",
+        "rank": "5e / 80",
+        "activities": ["Association Étudiante"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "LIC007",
+    "name": "Salimata Zongo",
+    "email": "salimata.zongo@univ.com",
+    "phone": "+226 75 11 22 33",
+    "address": "Ouagadougou, 12 Arrivées",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 1 - Sociologie",
+        "level": "Licence",
+        "average": "12.9",
+        "rank": "15e / 90",
+        "activities": ["Club Lecture"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC008",
+    "name": "Guillaume Robert",
+    "email": "guillaume.robert@univ.com",
+    "phone": "+33 6 33 22 11 00",
+    "address": "Marseille, Luminy",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 2 - Physique",
+        "level": "Licence",
+        "average": "14.6",
+        "rank": "6e / 60",
+        "activities": ["Club Astronomie"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC009",
+    "name": "Rasmané Sawadogo",
+    "email": "rasmane.sawadogo@univ.com",
+    "phone": "+226 79 33 44 55",
+    "address": "Koudougou, Centre",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 3 - Gestion",
+        "level": "Licence",
+        "average": "15.2",
+        "rank": "4e / 70",
+        "activities": ["Junior Entreprise"],
+        "trophies": ["🥈 Tableau d'honneur"]
+      }
+    ]
+  },
+  {
+    "id": "LIC010",
+    "name": "Chloé Petit",
+    "email": "chloe.petit@univ.com",
+    "phone": "+33 6 88 77 66 55",
+    "address": "Lille, Villeneuve d'Ascq",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 1 - Anglais",
+        "level": "Licence",
+        "average": "16.1",
+        "rank": "2e / 85",
+        "activities": ["Radio Campus"],
+        "trophies": ["🥇 Prix de langues"]
+      }
+    ]
+  },
+  {
+    "id": "LIC011",
+    "name": "Adama Traoré",
+    "email": "adama.traore@univ.com",
+    "phone": "+226 74 66 55 44",
+    "address": "Bobo-Dioulasso, Polytechnic",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 2 - Génie Électrique",
+        "level": "Licence",
+        "average": "13.8",
+        "rank": "9e / 65",
+        "activities": ["Atelier Robotique"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC012",
+    "name": "Manon Simon",
+    "email": "manon.simon@univ.com",
+    "phone": "+33 6 24 35 46 57",
+    "address": "Toulouse, Rangueil",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 3 - Informatique",
+        "level": "Licence",
+        "average": "15.9",
+        "rank": "2e / 80",
+        "activities": ["Club Cybersécurité"],
+        "trophies": ["🥈 Mention Très Bien"]
+      }
+    ]
+  },
+  {
+    "id": "LIC013",
+    "name": "Boureima Kaboré",
+    "email": "boureima.kabore@univ.com",
+    "phone": "+226 73 12 34 56",
+    "address": "Ouagadougou, Kossodo",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 1 - Économie",
+        "level": "Licence",
+        "average": "12.5",
+        "rank": "30e / 130",
+        "activities": ["Club Foot"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC014",
+    "name": "Jules Gauthier",
+    "email": "jules.gauthier@univ.com",
+    "phone": "+33 6 56 67 78 89",
+    "address": "Strasbourg, Esplanade",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 2 - Histoire",
+        "level": "Licence",
+        "average": "14.3",
+        "rank": "7e / 95",
+        "activities": ["Club Cinéma"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC015",
+    "name": "Aïcha Ouédraogo",
+    "email": "aicha.ouedraogo@univ.com",
+    "phone": "+226 70 88 77 66",
+    "address": "Koudougou, Secteur 2",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 3 - Géographie",
+        "level": "Licence",
+        "average": "14.9",
+        "rank": "4e / 50",
+        "activities": ["Club Environnement"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC016",
+    "name": "Antoine Roux",
+    "email": "antoine.roux@univ.com",
+    "phone": "+33 6 78 90 12 34",
+    "address": "Nantes, Tertre",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 1 - Informatique",
+        "level": "Licence",
+        "average": "13.6",
+        "rank": "18e / 120",
+        "activities": ["Club Jeux Vidéo"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC017",
+    "name": "Fatoumata Barry",
+    "email": "fatoumata.barry@univ.com",
+    "phone": "+226 72 99 88 11",
+    "address": "Ouagadougou, Cité An III",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 2 - Communication",
+        "level": "Licence",
+        "average": "15.1",
+        "rank": "3e / 70",
+        "activities": ["Journal Universitaire"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "LIC018",
+    "name": "Maxime Fournier",
+    "email": "maxime.fournier@univ.com",
+    "phone": "+33 6 21 43 65 87",
+    "address": "Rennes, Villejean",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 3 - Sociologie",
+        "level": "Licence",
+        "average": "13.9",
+        "rank": "11e / 60",
+        "activities": ["Théâtre Universitaire"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC019",
+    "name": "Issaka Kaboré",
+    "email": "issaka.kabore@univ.com",
+    "phone": "+226 78 22 33 44",
+    "address": "Koudougou, Centre-Ville",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 1 - Mathématiques",
+        "level": "Licence",
+        "average": "14.5",
+        "rank": "12e / 150",
+        "activities": ["Club Calcul"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC020",
+    "name": "Camille Bonnet",
+    "email": "camille.bonnet@univ.com",
+    "phone": "+33 6 90 12 34 56",
+    "address": "Montpellier, Richter",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 2 - Gestion",
+        "level": "Licence",
+        "average": "15.3",
+        "rank": "4e / 110",
+        "activities": ["Association Humanitaire"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "LIC021",
+    "name": "Ousmane Diallo",
+    "email": "ousmane.diallo@univ.com",
+    "phone": "+226 74 11 22 33",
+    "address": "Bobo-Dioulasso, Kenedougou",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 3 - Réseaux",
+        "level": "Licence",
+        "average": "16.2",
+        "rank": "2e / 75",
+        "activities": ["Club Cisco"],
+        "trophies": ["🏆 Prix d'Excellence"]
+      }
+    ]
+  },
+  {
+    "id": "LIC022",
+    "name": "Zoé Collin",
+    "email": "zoe.collin@univ.com",
+    "phone": "+33 6 44 33 22 11",
+    "address": "Grenoble, Saint-Martin-d'Hères",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 1 - Physique-Chimie",
+        "level": "Licence",
+        "average": "13.4",
+        "rank": "25e / 140",
+        "activities": ["Club Escalade"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC023",
+    "name": "Wendlassé Ouédraogo",
+    "email": "wendlasse.ouedraogo@univ.com",
+    "phone": "+226 77 55 44 33",
+    "address": "Ouagadougou, Ouaga 2000",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 2 - Informatique",
+        "level": "Licence",
+        "average": "15.7",
+        "rank": "3e / 90",
+        "activities": ["Club Dev Mobile"],
+        "trophies": ["🥇 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "LIC024",
+    "name": "Valentin Henry",
+    "email": "valentin.henry@univ.com",
+    "phone": "+33 6 11 00 22 33",
+    "address": "Dijon, Montmuzard",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 3 - Droit",
+        "level": "Licence",
+        "average": "14.8",
+        "rank": "6e / 85",
+        "activities": ["Moots Courts"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC025",
+    "name": "Mariam Sawadogo",
+    "email": "mariam.sawadogo@univ.com",
+    "phone": "+226 79 11 22 33",
+    "address": "Koudougou, Secteur 5",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 1 - Anglais",
+        "level": "Licence",
+        "average": "14.1",
+        "rank": "10e / 85",
+        "activities": ["Club Théâtre Anglais"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC026",
+    "name": "Arthur Masson",
+    "email": "arthur.masson@univ.com",
+    "phone": "+33 6 32 43 54 65",
+    "address": "Angers, Belle-Beille",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 2 - Biologie",
+        "level": "Licence",
+        "average": "13.2",
+        "rank": "20e / 100",
+        "activities": ["Club Nature"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC027",
+    "name": "Salamatou Compaoré",
+    "email": "salamatou.compaore@univ.com",
+    "phone": "+226 72 33 44 55",
+    "address": "Ouagadougou, Patte d'Oie",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 3 - Gestion",
+        "level": "Licence",
+        "average": "16.0",
+        "rank": "2e / 70",
+        "activities": ["Club Leadership"],
+        "trophies": ["🏆 Prix d'Excellence"]
+      }
+    ]
+  },
+  {
+    "id": "LIC028",
+    "name": "Nathan Renard",
+    "email": "nathan.renard@univ.com",
+    "phone": "+33 6 65 54 43 32",
+    "address": "Reims, Campus Croix-Rouge",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 1 - Économie",
+        "level": "Licence",
+        "average": "12.8",
+        "rank": "45e / 130",
+        "activities": ["Club Foot"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC029",
+    "name": "Boureima Tiendrebéogo",
+    "email": "boureima.tiendrebeogo@univ.com",
+    "phone": "+226 73 99 88 77",
+    "address": "Koudougou, Secteur 1",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 2 - Informatique",
+        "level": "Licence",
+        "average": "16.4",
+        "rank": "1er / 90",
+        "activities": ["Club Algorithmique", "Hackathons"],
+        "trophies": ["🏆 Major de promo", "🥇 Prix spécial code"]
+      }
+    ]
+  },
+  {
+    "id": "LIC030",
+    "name": "Inès Lemoine",
+    "email": "ines.lemoine@univ.com",
+    "phone": "+33 6 87 98 09 10",
+    "address": "Toulon, La Garde",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 3 - Lettres Modernes",
+        "level": "Licence",
+        "average": "15.0",
+        "rank": "3e / 45",
+        "activities": ["Atelier Écriture"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "LIC031",
+    "name": "Abdoul Zongo",
+    "email": "abdoul.zongo@univ.com",
+    "phone": "+226 71 55 66 77",
+    "address": "Ouagadougou, Dassasgho",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 1 - Physique",
+        "level": "Licence",
+        "average": "14.7",
+        "rank": "8e / 110",
+        "activities": ["Club Sciences"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC032",
+    "name": "Clara Brun",
+    "email": "clara.brun@univ.com",
+    "phone": "+33 6 54 65 76 87",
+    "address": "Saint-Étienne, Tréfilerie",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 2 - Sociologie",
+        "level": "Licence",
+        "average": "13.9",
+        "rank": "12e / 90",
+        "activities": ["Journal Étudiant"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC033",
+    "name": "Rasmata Ouédraogo",
+    "email": "rasmata.ouedraogo@univ.com",
+    "phone": "+226 76 22 11 00",
+    "address": "Koudougou, Secteur 4",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 3 - Droit",
+        "level": "Licence",
+        "average": "15.4",
+        "rank": "5e / 85",
+        "activities": ["Club Droits Humains"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "LIC034",
+    "name": "Timéo Picard",
+    "email": "timeo.picard@univ.com",
+    "phone": "+33 6 43 32 21 10",
+    "address": "Le Havre, Caucriauville",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 1 - Logistique",
+        "level": "Licence",
+        "average": "12.6",
+        "rank": "35e / 100",
+        "activities": ["Club Sports"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC035",
+    "name": "Fatimata Bationo",
+    "email": "fatimata.bationo@univ.com",
+    "phone": "+226 70 33 22 11",
+    "address": "Ouagadougou, Gounghin",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 2 - Géographie",
+        "level": "Licence",
+        "average": "14.2",
+        "rank": "7e / 50",
+        "activities": ["Club Cartographie"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC036",
+    "name": "Mathis Reynaud",
+    "email": "mathis.reynaud@univ.com",
+    "phone": "+33 6 11 22 44 55",
+    "address": "Nice, Carl One",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 3 - Informatique",
+        "level": "Licence",
+        "average": "15.8",
+        "rank": "3e / 80",
+        "activities": ["Club Intelligence Artificielle"],
+        "trophies": ["🥈 Mention Très Bien"]
+      }
+    ]
+  },
+  {
+    "id": "LIC037",
+    "name": "Souleymane Barry",
+    "email": "souleymane.barry@univ.com",
+    "phone": "+226 75 88 99 00",
+    "address": "Bobo-Dioulasso, Sarfalao",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 1 - Économie",
+        "level": "Licence",
+        "average": "13.5",
+        "rank": "25e / 130",
+        "activities": ["Club Débat Éco"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC038",
+    "name": "Juliette Paul",
+    "email": "juliette.paul@univ.com",
+    "phone": "+33 6 77 88 99 00",
+    "address": "Toulouse, Le Mirail",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 2 - Arts Plastiques",
+        "level": "Licence",
+        "average": "16.5",
+        "rank": "1er / 40",
+        "activities": ["Exposition Art", "Atelier Peinture"],
+        "trophies": ["🏆 Major de promo", "🥇 Prix d'Art"]
+      }
+    ]
+  },
+  {
+    "id": "LIC039",
+    "name": "Wendpanga Zongo",
+    "email": "wendpanga.zongo@univ.com",
+    "phone": "+226 78 44 33 22",
+    "address": "Koudougou, Secteur 6",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 3 - Sociologie",
+        "level": "Licence",
+        "average": "14.4",
+        "rank": "8e / 60",
+        "activities": ["Club Recherche Sociale"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC040",
+    "name": "Hugo Caron",
+    "email": "hugo.caron@univ.com",
+    "phone": "+33 6 99 88 77 66",
+    "address": "Lille, Moulins",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 1 - Mathématiques",
+        "level": "Licence",
+        "average": "15.2",
+        "rank": "6e / 150",
+        "activities": ["Club Échecs"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "LIC041",
+    "name": "Sarah Pires",
+    "email": "sarah.pires@univ.com",
+    "phone": "+33 6 22 33 44 55",
+    "address": "Paris, Censier",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 2 - Espagnol",
+        "level": "Licence",
+        "average": "14.9",
+        "rank": "4e / 60",
+        "activities": ["Échange Culturel"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC042",
+    "name": "Alassane Ouédraogo",
+    "email": "alassane.ouedraogo@univ.com",
+    "phone": "+226 71 00 11 22",
+    "address": "Ouagadougou, Tampouy",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 3 - Réseaux",
+        "level": "Licence",
+        "average": "15.6",
+        "rank": "4e / 75",
+        "activities": ["Club Systèmes & Sécurité"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "LIC043",
+    "name": "Théo Lemaire",
+    "email": "theo.lemaire@univ.com",
+    "phone": "+33 6 33 44 55 66",
+    "address": "Bordeaux, Victoire",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 1 - Philosophie",
+        "level": "Licence",
+        "average": "13.8",
+        "rank": "12e / 70",
+        "activities": ["Cercle de Réflexion"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC044",
+    "name": "Aminata Compaoré",
+    "email": "aminata.compaore@univ.com",
+    "phone": "+226 77 11 22 33",
+    "address": "Koudougou, Secteur 3",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 2 - Droit",
+        "level": "Licence",
+        "average": "15.1",
+        "rank": "5e / 110",
+        "activities": ["Club Droits civiques"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "LIC045",
+    "name": "Alexandre Dupont",
+    "email": "alexandre.dupont@univ.com",
+    "phone": "+33 6 55 66 77 88",
+    "address": "Lyon, Bron",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 3 - Informatique",
+        "level": "Licence",
+        "average": "16.1",
+        "rank": "2e / 80",
+        "activities": ["Club Open Source"],
+        "trophies": ["🏆 Prix d'Excellence"]
+      }
+    ]
+  },
+  {
+    "id": "LIC046",
+    "name": "Salimata Kaboré",
+    "email": "salimata.kabore@univ.com",
+    "phone": "+226 72 44 55 66",
+    "address": "Ouagadougou, Pissy",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 1 - Communication",
+        "level": "Licence",
+        "average": "14.3",
+        "rank": "9e / 70",
+        "activities": ["Radio Étudiante"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC047",
+    "name": "Benjamin Girard",
+    "email": "benjamin.girard@univ.com",
+    "phone": "+33 6 88 99 00 11",
+    "address": "Marseille, Saint-Charles",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 2 - Histoire",
+        "level": "Licence",
+        "average": "13.7",
+        "rank": "16e / 95",
+        "activities": ["Club Archéologie"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC048",
+    "name": "Idrissa Ouédraogo",
+    "email": "idrissa.ouedraogo@univ.com",
+    "phone": "+226 74 22 33 44",
+    "address": "Koudougou, Secteur 2",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 3 - Génie Logiciel",
+        "level": "Licence",
+        "average": "16.6",
+        "rank": "2e / 75",
+        "activities": ["Club Systèmes Embarqués", "Linux Users"],
+        "trophies": ["🏆 Mention Très Bien", "🥇 Hackathon National"]
+      }
+    ]
+  },
+  {
+    "id": "LIC049",
+    "name": "Océane Laurent",
+    "email": "oceane.laurent@univ.com",
+    "phone": "+33 6 12 45 78 89",
+    "address": "Lille, Vauban",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 1 - Biologie",
+        "level": "Licence",
+        "average": "14.0",
+        "rank": "18e / 100",
+        "activities": ["Club Écologie"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LIC050",
+    "name": "Pauline Fournier",
+    "email": "pauline.fournier@univ.com",
+    "phone": "+33 6 34 21 56 78",
+    "address": "Toulouse, Capitole",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Licence 2 - Gestion",
+        "level": "Licence",
+        "average": "15.5",
+        "rank": "3e / 110",
+        "activities": ["Junior Entreprise"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  }
+]

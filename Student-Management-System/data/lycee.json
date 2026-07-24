@@ -1,0 +1,952 @@
+[
+  {
+    "id": "LYC001",
+    "name": "Alexandre Dupont",
+    "email": "alexandre.dupont@lycee.com",
+    "phone": "+33 6 11 22 33 44",
+    "address": "Paris, 15e Arrondissement",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Seconde 1",
+        "diploma": "Brevet des collèges",
+        "level": "Lycée",
+        "average": "14.2",
+        "rank": "5e / 32",
+        "activities": ["Club Informatique"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "LYC002",
+    "name": "Fatoumata Diallo",
+    "email": "fatoumata.diallo@lycee.com",
+    "phone": "+226 70 11 22 33",
+    "address": "Ouagadougou, Ouaga 2000",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Première D",
+        "diploma": "Passage Seconde",
+        "level": "Lycée",
+        "average": "15.5",
+        "rank": "2e / 35",
+        "activities": ["Club Scientifique"],
+        "trophies": ["🏆 Prix de Mathématiques"]
+      }
+    ]
+  },
+  {
+    "id": "LYC003",
+    "name": "Guillaume Leroy",
+    "email": "guillaume.leroy@lycee.com",
+    "phone": "+33 6 44 33 22 11",
+    "address": "Lyon, 6e Arrondissement",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Terminale S",
+        "diploma": "Baccalauréat en cours",
+        "level": "Lycée",
+        "average": "16.8",
+        "rank": "1er / 30",
+        "activities": ["Robotique", "Journal lycéen"],
+        "trophies": ["🏆 Major de promo", "🥇 Concours Général"]
+      }
+    ]
+  },
+  {
+    "id": "LYC004",
+    "name": "Aïcha Traoré",
+    "email": "aicha.traore@lycee.com",
+    "phone": "+226 76 55 44 33",
+    "address": "Bobo-Dioulasso, Secteur 5",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Seconde 2",
+        "diploma": "BEPC",
+        "level": "Lycée",
+        "average": "13.9",
+        "rank": "8e / 34",
+        "activities": ["Club Théâtre"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC005",
+    "name": "Maxime Richard",
+    "email": "maxime.richard@lycee.com",
+    "phone": "+33 6 78 90 12 34",
+    "address": "Marseille, Prado",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Première ES",
+        "diploma": "Passage Seconde",
+        "level": "Lycée",
+        "average": "12.7",
+        "rank": "14e / 31",
+        "activities": ["Équipe de Basket"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC006",
+    "name": "Salimata Kaboré",
+    "email": "salimata.kabore@lycee.com",
+    "phone": "+226 71 88 99 00",
+    "address": "Koudougou, Secteur 2",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Terminale L",
+        "diploma": "Baccalauréat en cours",
+        "level": "Lycée",
+        "average": "14.8",
+        "rank": "3e / 28",
+        "activities": ["Club Philosophie"],
+        "trophies": ["🥈 Prix d'éloquence"]
+      }
+    ]
+  },
+  {
+    "id": "LYC007",
+    "name": "Benjamin Girard",
+    "email": "benjamin.girard@lycee.com",
+    "phone": "+33 6 55 44 33 22",
+    "address": "Bordeaux, Chartrons",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Seconde 1",
+        "diploma": "Brevet",
+        "level": "Lycée",
+        "average": "11.8",
+        "rank": "20e / 32",
+        "activities": ["Club Échecs"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC008",
+    "name": "Clémence Simon",
+    "email": "clemence.simon@lycee.com",
+    "phone": "+33 6 99 88 77 66",
+    "address": "Nantes, Centre",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Première S",
+        "diploma": "Passage Seconde",
+        "level": "Lycée",
+        "average": "16.1",
+        "rank": "2e / 33",
+        "activities": ["Chorale"],
+        "trophies": ["🏆 Prix d'excellence"]
+      }
+    ]
+  },
+  {
+    "id": "LYC009",
+    "name": "Idrissa Ouédraogo",
+    "email": "idrissa.ouedraogo@lycee.com",
+    "phone": "+226 75 12 34 56",
+    "address": "Ouagadougou, Patte d'Oie",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Terminale D",
+        "diploma": "Baccalauréat en cours",
+        "level": "Lycée",
+        "average": "15.0",
+        "rank": "4e / 36",
+        "activities": ["Club Informatique"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "LYC010",
+    "name": "Océane Laurent",
+    "email": "oceane.laurent@lycee.com",
+    "phone": "+33 6 22 11 44 33",
+    "address": "Lille, Flandres",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Seconde 3",
+        "diploma": "Brevet",
+        "level": "Lycée",
+        "average": "13.4",
+        "rank": "10e / 30",
+        "activities": ["Club Dessin"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC011",
+    "name": "Thibault Lefevre",
+    "email": "thibault.lefevre@lycee.com",
+    "phone": "+33 6 33 22 11 00",
+    "address": "Strasbourg, Krutenau",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Première STI2D",
+        "diploma": "Passage Seconde",
+        "level": "Lycée",
+        "average": "13.0",
+        "rank": "7e / 28",
+        "activities": ["Atelier Bricolage & Tech"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC012",
+    "name": "Mariam Sawadogo",
+    "email": "mariam.sawadogo@lycee.com",
+    "phone": "+226 78 99 00 11",
+    "address": "Koudougou, Secteur 4",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Terminale A4",
+        "diploma": "Baccalauréat en cours",
+        "level": "Lycée",
+        "average": "14.5",
+        "rank": "5e / 30",
+        "activities": ["Club Lecture"],
+        "trophies": ["🥈 Tableau d'honneur"]
+      }
+    ]
+  },
+  {
+    "id": "LYC013",
+    "name": "Romain Morel",
+    "email": "romain.morel@lycee.com",
+    "phone": "+33 6 12 34 56 78",
+    "address": "Toulouse, Compans",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Seconde 2",
+        "diploma": "Brevet",
+        "level": "Lycée",
+        "average": "12.5",
+        "rank": "15e / 32",
+        "activities": ["Club Foot"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC014",
+    "name": "Pauline Fournier",
+    "email": "pauline.fournier@lycee.com",
+    "phone": "+33 6 87 65 43 21",
+    "address": "Nice, Promenade",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Première ES",
+        "diploma": "Passage Seconde",
+        "level": "Lycée",
+        "average": "14.0",
+        "rank": "6e / 31",
+        "activities": ["Journal lycéen"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC015",
+    "name": "Abdoul Zongo",
+    "email": "abdoul.zongo@lycee.com",
+    "phone": "+226 72 33 44 55",
+    "address": "Ouagadougou, Dassasgho",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Terminale C",
+        "diploma": "Baccalauréat en cours",
+        "level": "Lycée",
+        "average": "17.2",
+        "rank": "1er / 25",
+        "activities": ["Club Physique-Chimie"],
+        "trophies": ["🏆 Major de promo", "🥇 Prix d'excellence"]
+      }
+    ]
+  },
+  {
+    "id": "LYC016",
+    "name": "Chloé Bonnet",
+    "email": "chloe.bonnet@lycee.com",
+    "phone": "+33 6 54 32 10 98",
+    "address": "Rennes, Beaulieu",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Seconde 1",
+        "diploma": "Brevet",
+        "level": "Lycée",
+        "average": "15.0",
+        "rank": "3e / 32",
+        "activities": ["Club Environnement"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "LYC017",
+    "name": "Valentin Roux",
+    "email": "valentin.roux@lycee.com",
+    "phone": "+33 6 21 43 65 87",
+    "address": "Montpellier, Comédie",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Première S",
+        "diploma": "Passage Seconde",
+        "level": "Lycée",
+        "average": "13.6",
+        "rank": "11e / 33",
+        "activities": ["Club Échecs"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC018",
+    "name": "Aminata Compaoré",
+    "email": "aminata.compaore@lycee.com",
+    "phone": "+226 79 00 11 22",
+    "address": "Bobo-Dioulasso, Sarfalao",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Terminale D",
+        "diploma": "Baccalauréat en cours",
+        "level": "Lycée",
+        "average": "14.3",
+        "rank": "6e / 36",
+        "activities": ["Club Anglais"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC019",
+    "name": "Lucas Gauthier",
+    "email": "lucas.gauthier@lycee.com",
+    "phone": "+33 6 89 78 67 56",
+    "address": "Grenoble, Centre",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Seconde 3",
+        "diploma": "Brevet",
+        "level": "Lycée",
+        "average": "12.2",
+        "rank": "18e / 30",
+        "activities": ["Club Escalade"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC020",
+    "name": "Manon Faure",
+    "email": "manon.faure@lycee.com",
+    "phone": "+33 6 34 56 78 90",
+    "address": "Dijon, Centre",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Première L",
+        "diploma": "Passage Seconde",
+        "level": "Lycée",
+        "average": "15.1",
+        "rank": "3e / 27",
+        "activities": ["Club Théâtre"],
+        "trophies": ["🥈 Prix d'écriture"]
+      }
+    ]
+  },
+  {
+    "id": "LYC021",
+    "name": "Souleymane Barry",
+    "email": "souleymane.barry@lycee.com",
+    "phone": "+226 74 11 22 33",
+    "address": "Ouagadougou, Cité An II",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Terminale A4",
+        "diploma": "Baccalauréat en cours",
+        "level": "Lycée",
+        "average": "13.5",
+        "rank": "12e / 30",
+        "activities": ["Club Foot"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC022",
+    "name": "Elodie Mercier",
+    "email": "elodie.mercier@lycee.com",
+    "phone": "+33 6 45 67 89 01",
+    "address": "Toulon, Centre",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Seconde 2",
+        "diploma": "Brevet",
+        "level": "Lycée",
+        "average": "14.6",
+        "rank": "7e / 32",
+        "activities": ["Chorale"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC023",
+    "name": "Adrien Blanc",
+    "email": "adrien.blanc@lycee.com",
+    "phone": "+33 6 56 78 90 12",
+    "address": "Angers, Centre",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Première STI2D",
+        "diploma": "Passage Seconde",
+        "level": "Lycée",
+        "average": "13.2",
+        "rank": "8e / 28",
+        "activities": ["Robotique"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC024",
+    "name": "Mariam Sanou",
+    "email": "mariam.sanou@lycee.com",
+    "phone": "+226 77 66 55 44",
+    "address": "Bobo-Dioulasso, Kenedougou",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Terminale D",
+        "diploma": "Baccalauréat en cours",
+        "level": "Lycée",
+        "average": "15.8",
+        "rank": "3e / 36",
+        "activities": ["Club Sciences"],
+        "trophies": ["🥈 Tableau d'honneur"]
+      }
+    ]
+  },
+  {
+    "id": "LYC025",
+    "name": "Julien Guerin",
+    "email": "julien.guerin@lycee.com",
+    "phone": "+33 6 67 89 01 23",
+    "address": "Le Havre, Centre",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Seconde 1",
+        "diploma": "Brevet",
+        "level": "Lycée",
+        "average": "11.2",
+        "rank": "25e / 32",
+        "activities": ["Club Basket"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC026",
+    "name": "Sarah Henry",
+    "email": "sarah.henry@lycee.com",
+    "phone": "+33 6 78 90 12 35",
+    "address": "Reims, Centre",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Première S",
+        "diploma": "Passage Seconde",
+        "level": "Lycée",
+        "average": "16.5",
+        "rank": "1er / 33",
+        "activities": ["Club Informatique"],
+        "trophies": ["🏆 Major de classe", "🥇 Prix de Physique"]
+      }
+    ]
+  },
+  {
+    "id": "LYC027",
+    "name": "Boubacar Tiendrébéogo",
+    "email": "boubacar.tiendrebeogo@lycee.com",
+    "phone": "+226 73 22 11 00",
+    "address": "Koudougou, Secteur 1",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Terminale C",
+        "diploma": "Baccalauréat en cours",
+        "level": "Lycée",
+        "average": "16.0",
+        "rank": "2e / 25",
+        "activities": ["Club Mathématiques"],
+        "trophies": ["🏆 Prix d'excellence"]
+      }
+    ]
+  },
+  {
+    "id": "LYC028",
+    "name": "Mathilde Roussel",
+    "email": "mathilde.roussel@lycee.com",
+    "phone": "+33 6 89 01 23 46",
+    "address": "Saint-Étienne, Centre",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Seconde 3",
+        "diploma": "Brevet",
+        "level": "Lycée",
+        "average": "13.8",
+        "rank": "9e / 30",
+        "activities": ["Club Lecture"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC029",
+    "name": "Antoine Masson",
+    "email": "antoine.masson@lycee.com",
+    "phone": "+33 6 90 12 34 57",
+    "address": "Toulon, Le Port",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Première ES",
+        "diploma": "Passage Seconde",
+        "level": "Lycée",
+        "average": "12.9",
+        "rank": "15e / 31",
+        "activities": ["Club Économie"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC030",
+    "name": "Rasmata Ouédraogo",
+    "email": "rasmata.ouedraogo@lycee.com",
+    "phone": "+226 70 99 88 77",
+    "address": "Ouagadougou, Gounghin",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Terminale D",
+        "diploma": "Baccalauréat en cours",
+        "level": "Lycée",
+        "average": "14.1",
+        "rank": "8e / 36",
+        "activities": ["Club Environnement"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC031",
+    "name": "Camille Marchand",
+    "email": "camille.marchand@lycee.com",
+    "phone": "+33 6 01 23 45 68",
+    "address": "Le Havre, Sainte-Adresse",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Seconde 2",
+        "diploma": "Brevet",
+        "level": "Lycée",
+        "average": "14.4",
+        "rank": "8e / 32",
+        "activities": ["Club Arts Plastiques"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC032",
+    "name": "Nicolas Chevalier",
+    "email": "nicolas.chevalier@lycee.com",
+    "phone": "+33 6 12 34 56 79",
+    "address": "Grenoble, Meylan",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Première S",
+        "diploma": "Passage Seconde",
+        "level": "Lycée",
+        "average": "15.0",
+        "rank": "4e / 33",
+        "activities": ["Club Astronomie"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "LYC033",
+    "name": "Wendlassé Tiendrebéogo",
+    "email": "wendlasse.tiendrebeogo@lycee.com",
+    "phone": "+226 78 12 34 56",
+    "address": "Koudougou, Centre",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Terminale C",
+        "diploma": "Baccalauréat en cours",
+        "level": "Lycée",
+        "average": "16.4",
+        "rank": "1er / 25",
+        "activities": ["Club Code", "Robotique"],
+        "trophies": ["🏆 Major de Promo", "🥇 Concours Info Lycée"]
+      }
+    ]
+  },
+  {
+    "id": "LYC034",
+    "name": "Zoé Collin",
+    "email": "zoe.collin@lycee.com",
+    "phone": "+33 6 23 45 67 89",
+    "address": "Dijon, Darcy",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Seconde 1",
+        "diploma": "Brevet",
+        "level": "Lycée",
+        "average": "13.1",
+        "rank": "12e / 32",
+        "activities": ["Club Théâtre"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC035",
+    "name": "Thomas Vidal",
+    "email": "thomas.vidal@lycee.com",
+    "phone": "+33 6 34 56 78 91",
+    "address": "Angers, Maine",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Première STI2D",
+        "diploma": "Passage Seconde",
+        "level": "Lycée",
+        "average": "12.8",
+        "rank": "9e / 28",
+        "activities": ["Atelier Mécanique"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC036",
+    "name": "Adama Ouédraogo",
+    "email": "adama.ouedraogo@lycee.com",
+    "phone": "+226 71 33 22 11",
+    "address": "Ouagadougou, Koulouba",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Terminale A4",
+        "diploma": "Baccalauréat en cours",
+        "level": "Lycée",
+        "average": "13.9",
+        "rank": "9e / 30",
+        "activities": ["Journal lycéen"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC037",
+    "name": "Emma Carlier",
+    "email": "emma.carlier@lycee.com",
+    "phone": "+33 6 45 67 89 02",
+    "address": "Reims, Cathédrale",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Seconde 3",
+        "diploma": "Brevet",
+        "level": "Lycée",
+        "average": "15.3",
+        "rank": "4e / 30",
+        "activities": ["Chorale"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "LYC038",
+    "name": "Hugo Perrin",
+    "email": "hugo.perrin@lycee.com",
+    "phone": "+33 6 56 78 90 13",
+    "address": "Saint-Étienne, Bellevue",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Première S",
+        "diploma": "Passage Seconde",
+        "level": "Lycée",
+        "average": "14.2",
+        "rank": "7e / 33",
+        "activities": ["Club Foot"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC039",
+    "name": "Fatimata Bationo",
+    "email": "fatimata.bationo@lycee.com",
+    "phone": "+226 79 44 33 22",
+    "address": "Koudougou, Secteur 6",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Terminale D",
+        "diploma": "Baccalauréat en cours",
+        "level": "Lycée",
+        "average": "14.9",
+        "rank": "5e / 36",
+        "activities": ["Club Anglais"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC040",
+    "name": "Charlotte Roger",
+    "email": "charlotte.roger@lycee.com",
+    "phone": "+33 6 67 89 01 24",
+    "address": "Toulon, Faron",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Seconde 2",
+        "diploma": "Brevet",
+        "level": "Lycée",
+        "average": "13.7",
+        "rank": "11e / 32",
+        "activities": ["Club Natation"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC041",
+    "name": "Mathis Renard",
+    "email": "mathis.renard@lycee.com",
+    "phone": "+33 6 78 90 12 36",
+    "address": "Angers, Belle-Beille",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Première ES",
+        "diploma": "Passage Seconde",
+        "level": "Lycée",
+        "average": "13.4",
+        "rank": "10e / 31",
+        "activities": ["Club Basket"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC042",
+    "name": "Boureima Compaoré",
+    "email": "boureima.compaore@lycee.com",
+    "phone": "+226 72 55 66 77",
+    "address": "Ouagadougou, Somgandé",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Terminale C",
+        "diploma": "Baccalauréat en cours",
+        "level": "Lycée",
+        "average": "15.1",
+        "rank": "3e / 25",
+        "activities": ["Club Sciences"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "LYC043",
+    "name": "Inès Lemoine",
+    "email": "ines.lemoine@lycee.com",
+    "phone": "+33 6 89 01 23 47",
+    "address": "Le Havre, Plage",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Seconde 1",
+        "diploma": "Brevet",
+        "level": "Lycée",
+        "average": "14.0",
+        "rank": "9e / 32",
+        "activities": ["Club Lecture"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC044",
+    "name": "Timéo Picard",
+    "email": "timeo.picard@lycee.com",
+    "phone": "+33 6 90 12 34 58",
+    "address": "Grenoble, Championnet",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Première S",
+        "diploma": "Passage Seconde",
+        "level": "Lycée",
+        "average": "15.2",
+        "rank": "3e / 33",
+        "activities": ["Club Informatique"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "LYC045",
+    "name": "Mariam Diallo",
+    "email": "mariam.diallo@lycee.com",
+    "phone": "+226 76 88 77 66",
+    "address": "Bobo-Dioulasso, Bindougou",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Terminale A4",
+        "diploma": "Baccalauréat en cours",
+        "level": "Lycée",
+        "average": "14.2",
+        "rank": "7e / 30",
+        "activities": ["Club Théâtre"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC046",
+    "name": "Léna Hubert",
+    "email": "lena.hubert@lycee.com",
+    "phone": "+33 6 01 23 45 69",
+    "address": "Dijon, République",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Seconde 3",
+        "diploma": "Brevet",
+        "level": "Lycée",
+        "average": "12.6",
+        "rank": "16e / 30",
+        "activities": ["Club Dessin"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC047",
+    "name": "Aaron Marchal",
+    "email": "aaron.marchal@lycee.com",
+    "phone": "+33 6 12 34 56 80",
+    "address": "Reims, Talus",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Première STI2D",
+        "diploma": "Passage Seconde",
+        "level": "Lycée",
+        "average": "13.5",
+        "rank": "5e / 28",
+        "activities": ["Atelier Électronique"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "LYC048",
+    "name": "Ousmane Traoré",
+    "email": "ousmane.traore@lycee.com",
+    "phone": "+226 74 99 88 11",
+    "address": "Ouagadougou, 12 Arrivées",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Terminale D",
+        "diploma": "Baccalauréat en cours",
+        "level": "Lycée",
+        "average": "15.4",
+        "rank": "4e / 36",
+        "activities": ["Club Basket", "Informatique"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "LYC049",
+    "name": "Romane Dupuis",
+    "email": "romane.dupuis@lycee.com",
+    "phone": "+33 6 23 45 67 90",
+    "address": "Saint-Étienne, Centre",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Seconde 2",
+        "diploma": "Brevet",
+        "level": "Lycée",
+        "average": "14.8",
+        "rank": "6e / 32",
+        "activities": ["Club Journalisme"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "LYC050",
+    "name": "Enzo Meunier",
+    "email": "enzo.meunier@lycee.com",
+    "phone": "+33 6 34 56 78 92",
+    "address": "Toulon, Mourillon",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Terminale S",
+        "diploma": "Baccalauréat en cours",
+        "level": "Lycée",
+        "average": "15.9",
+        "rank": "2e / 30",
+        "activities": ["Club Robotique"],
+        "trophies": ["🥈 Mention Très Bien"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "MAS001",
+    "name": "Wendyam Kaboré",
+    "email": "wendyam.kabore@univ.com",
+    "phone": "+226 70 11 22 33",
+    "address": "Ouagadougou, Zogona",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Master 1 - Systèmes et Réseaux",
+        "level": "Master",
+        "average": "15.4",
+        "rank": "3e / 45",
+        "activities": ["Club Sécurité Réseau"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "MAS002",
+    "name": "Mathilde Mercier",
+    "email": "mathilde.mercier@univ.com",
+    "phone": "+33 6 12 33 44 55",
+    "address": "Paris, Sorbonne",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Master 2 - Intelligence Artificielle",
+        "level": "Master",
+        "average": "16.9",
+        "rank": "1er / 30",
+        "activities": ["Laboratoire IA", "Club Open Source"],
+        "trophies": ["🏆 Major de promo", "🥇 Prix de Recherche"]
+      }
+    ]
+  },
+  {
+    "id": "MAS003",
+    "name": "Issouf Sawadogo",
+    "email": "issouf.sawadogo@univ.com",
+    "phone": "+226 76 55 44 33",
+    "address": "Koudougou, Centre-Ville",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Master 1 - Génie Logiciel",
+        "level": "Master",
+        "average": "14.8",
+        "rank": "5e / 40",
+        "activities": ["Club Dev Backend"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "MAS004",
+    "name": "Camille Leroy",
+    "email": "camille.leroy@univ.com",
+    "phone": "+33 6 45 66 77 88",
+    "address": "Lyon, Gerland",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Master 2 - Cybersécurité",
+        "level": "Master",
+        "average": "16.2",
+        "rank": "2e / 35",
+        "activities": ["Équipe CTF", "Audit Sécurité"],
+        "trophies": ["🥈 Mention Très Bien", "🥇 Podiums CTF"]
+      }
+    ]
+  },
+  {
+    "id": "MAS005",
+    "name": "Rasmata Compaoré",
+    "email": "rasmata.compaore@univ.com",
+    "phone": "+226 71 22 33 44",
+    "address": "Ouagadougou, Patte d'Oie",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Master 1 - Droit des Affaires",
+        "level": "Master",
+        "average": "15.0",
+        "rank": "4e / 50",
+        "activities": ["Cercle Juridique"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "MAS006",
+    "name": "Lucas Petit",
+    "email": "lucas.petit@univ.com",
+    "phone": "+33 6 78 99 00 11",
+    "address": "Bordeaux, Bastide",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Master 2 - Informatique Fondamentale",
+        "level": "Master",
+        "average": "15.8",
+        "rank": "3e / 25",
+        "activities": ["Club Algorithmique Avancée"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "MAS007",
+    "name": "Wendlassé Kaboré",
+    "email": "wendlasse.kabore@univ.com",
+    "phone": "+226 77 88 99 00",
+    "address": "Koudougou, Secteur 4",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Master 1 - Réseaux et Télécommunications",
+        "level": "Master",
+        "average": "15.7",
+        "rank": "2e / 40",
+        "activities": ["Association Cisco", "Projets IoT"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "MAS008",
+    "name": "Manon Bernard",
+    "email": "manon.bernard@univ.com",
+    "phone": "+33 6 34 55 66 77",
+    "address": "Toulouse, Rangueil",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Master 2 - Systèmes Embarqués",
+        "level": "Master",
+        "average": "16.5",
+        "rank": "1er / 30",
+        "activities": ["Laboratoire Robotique", "Linux Kernel Study"],
+        "trophies": ["🏆 Major de promo", "🥇 Prix d'Innovation"]
+      }
+    ]
+  },
+  {
+    "id": "MAS009",
+    "name": "Abdoul Zongo",
+    "email": "abdoul.zongo@univ.com",
+    "phone": "+226 73 44 55 66",
+    "address": "Ouagadougou, Ouaga 2000",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Master 1 - Management des Organisations",
+        "level": "Master",
+        "average": "14.5",
+        "rank": "8e / 60",
+        "activities": ["Junior Entreprise"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "MAS010",
+    "name": "Chloé Simon",
+    "email": "chloe.simon@univ.com",
+    "phone": "+33 6 90 88 77 66",
+    "address": "Nantes, Île de Nantes",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Master 2 - Big Data",
+        "level": "Master",
+        "average": "16.1",
+        "rank": "2e / 40",
+        "activities": ["Data Science Club"],
+        "trophies": ["🥈 Mention Très Bien"]
+      }
+    ]
+  },
+  {
+    "id": "MAS011",
+    "name": "Boureima Sanfo",
+    "email": "boureima.sanfo@univ.com",
+    "phone": "+226 78 11 00 22",
+    "address": "Koudougou, Secteur 2",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Master 1 - Informatique Décisionnelle",
+        "level": "Master",
+        "average": "15.3",
+        "rank": "3e / 35",
+        "activities": ["Club BI"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "MAS012",
+    "name": "Antoine Gauthier",
+    "email": "antoine.gauthier@univ.com",
+    "phone": "+33 6 23 45 67 89",
+    "address": "Strasbourg, Krutenau",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Master 2 - Réseaux Haut Débit",
+        "level": "Master",
+        "average": "15.6",
+        "rank": "4e / 30",
+        "activities": ["Club Télécom"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "MAS013",
+    "name": "Salimata Ouédraogo",
+    "email": "salimata.ouedraogo@univ.com",
+    "phone": "+226 74 99 88 77",
+    "address": "Ouagadougou, Gounghin",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Master 1 - Sociologie Politique",
+        "level": "Master",
+        "average": "14.9",
+        "rank": "6e / 45",
+        "activities": ["Club Recherche Sociale"],
+        "trophies": []
+      }
+    ]
+  },
+  {
+    "id": "MAS014",
+    "name": "Jules Moreau",
+    "email": "jules.moreau@univ.com",
+    "phone": "+33 6 56 43 21 09",
+    "address": "Marseille, Vieux-Port",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Master 2 - Génie Logiciel Avancé",
+        "level": "Master",
+        "average": "16.4",
+        "rank": "2e / 35",
+        "activities": ["Hackathons", "Open Source Dev"],
+        "trophies": ["🥈 Mention Très Bien", "🥇 Prix d'Excellence Code"]
+      }
+    ]
+  },
+  {
+    "id": "MAS015",
+    "name": "Idrissa Tiendrebéogo",
+    "email": "idrissa.tiendrebeogo@univ.com",
+    "phone": "+226 72 33 22 11",
+    "address": "Koudougou, Secteur 1",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Master 1 - Sécurité Informatique",
+        "level": "Master",
+        "average": "16.0",
+        "rank": "1er / 30",
+        "activities": ["Linux Kernel Labs", "Cyber Defense Club"],
+        "trophies": ["🏆 Major de promo", "🥇 Premier Prix Sécurité"]
+      }
+    ]
+  },
+  {
+    "id": "MAS016",
+    "name": "Clémence Roux",
+    "email": "clemence.roux@univ.com",
+    "phone": "+33 6 88 11 22 33",
+    "address": "Lille, Euralille",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Master 2 - Droit Numérique",
+        "level": "Master",
+        "average": "15.9",
+        "rank": "2e / 40",
+        "activities": ["Clinique Juridique Tech"],
+        "trophies": ["🥈 Mention Très Bien"]
+      }
+    ]
+  },
+  {
+    "id": "MAS017",
+    "name": "Fatimata Barry",
+    "email": "fatimata.barry@univ.com",
+    "phone": "+226 79 00 11 22",
+    "address": "Ouagadougou, Cité An III",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Master 1 - Communication Digitale",
+        "level": "Master",
+        "average": "15.2",
+        "rank": "3e / 50",
+        "activities": ["Webzine Étudiant"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "MAS018",
+    "name": "Thomas Bonnet",
+    "email": "thomas.bonnet@univ.com",
+    "phone": "+33 6 44 55 66 77",
+    "address": "Rennes, Beaulieu",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Master 2 - Réseaux et Sécurité",
+        "level": "Master",
+        "average": "15.7",
+        "rank": "3e / 30",
+        "activities": ["Club SecOps"],
+        "trophies": ["🥈 Mention Bien"]
+      }
+    ]
+  },
+  {
+    "id": "MAS019",
+    "name": "Windmi Compaoré",
+    "email": "windmi.compaore@univ.com",
+    "phone": "+226 75 66 77 88",
+    "address": "Koudougou, Secteur 3",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Master 1 - Architecture des Systèmes",
+        "level": "Master",
+        "average": "16.7",
+        "rank": "1er / 35",
+        "activities": ["Low-Level Programming Club", "Open Source"],
+        "trophies": ["🏆 Major de promo", "🥇 Prix d'Excellence Technique"]
+      }
+    ]
+  },
+  {
+    "id": "MAS020",
+    "name": "Sarah Pires",
+    "email": "sarah.pires@univ.com",
+    "phone": "+33 6 21 32 43 54",
+    "address": "Montpellier, Antigone",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Master 2 - Traduction et Technologies",
+        "level": "Master",
+        "average": "15.1",
+        "rank": "4e / 25",
+        "activities": ["Atelier Localisation"],
+        "trophies": []
+      }
+    ]
+  }
+]

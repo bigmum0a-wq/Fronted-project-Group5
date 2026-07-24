@@ -1,0 +1,452 @@
+[
+  {
+    "id": "DOC001",
+    "name": "Wendyam Sanfo",
+    "email": "wendyam.sanfo@univ.com",
+    "phone": "+226 70 44 55 66",
+    "address": "Ouagadougou, Zogona",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Doctorat - Informatique et Systèmes",
+        "level": "Doctorat",
+        "average": "17.5",
+        "rank": "1er / 15",
+        "activities": ["Laboratoire de Recherche en IA", "Comité Scientifique"],
+        "trophies": ["🏆 Major de Promotion", "🥇 Prix d'Excellence Doctorale"]
+      }
+    ]
+  },
+  {
+    "id": "DOC002",
+    "name": "Élise Laurent",
+    "email": "elise.laurent@univ.com",
+    "phone": "+33 6 11 22 33 44",
+    "address": "Paris, Jussieu",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Doctorat - Mathématiques Appliquées",
+        "level": "Doctorat",
+        "average": "17.0",
+        "rank": "2e / 20",
+        "activities": ["Séminaire de Recherche", "Publications Internationales"],
+        "trophies": ["🥈 Mention Très Honorable", "🥇 Bourse de Recherche"]
+      }
+    ]
+  },
+  {
+    "id": "DOC003",
+    "name": "Boureima Ouédraogo",
+    "email": "boureima.ouedraogo@univ.com",
+    "phone": "+226 76 11 22 33",
+    "address": "Koudougou, Centre-Ville",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Doctorat - Génie Logiciel Avancé",
+        "level": "Doctorat",
+        "average": "16.8",
+        "rank": "3e / 18",
+        "activities": ["Linux Kernel Labs", "Open Source Research"],
+        "trophies": ["🥈 Mention Très Honorable"]
+      }
+    ]
+  },
+  {
+    "id": "DOC004",
+    "name": "Alexandre Mercier",
+    "email": "alexandre.mercier@univ.com",
+    "phone": "+33 6 55 44 33 22",
+    "address": "Lyon, La Doua",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Doctorat - Cybersécurité et Réseaux",
+        "level": "Doctorat",
+        "average": "17.2",
+        "rank": "1er / 12",
+        "activities": ["Équipe de Recherche SecOps", "Conférences CTF"],
+        "trophies": ["🏆 Major de Promotion", "🥇 Prix de Thèse"]
+      }
+    ]
+  },
+  {
+    "id": "DOC005",
+    "name": "Rasmata Compaoré",
+    "email": "rasmata.compaore@univ.com",
+    "phone": "+226 71 88 77 66",
+    "address": "Ouagadougou, Patte d'Oie",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Doctorat - Droit International",
+        "level": "Doctorat",
+        "average": "16.5",
+        "rank": "4e / 25",
+        "activities": ["Clinique Juridique", "Publications"],
+        "trophies": ["🥈 Mention Très Honorable"]
+      }
+    ]
+  },
+  {
+    "id": "DOC006",
+    "name": "Thomas Bernard",
+    "email": "thomas.bernard@univ.com",
+    "phone": "+33 6 77 88 99 00",
+    "address": "Bordeaux, Talence",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Doctorat - Physique Théorique",
+        "level": "Doctorat",
+        "average": "16.9",
+        "rank": "2e / 16",
+        "activities": ["Laboratoire de Physique", "Colloques Scientifiques"],
+        "trophies": ["🥈 Mention Très Honorable"]
+      }
+    ]
+  },
+  {
+    "id": "DOC007",
+    "name": "Windmi Zongo",
+    "email": "windmi.zongo@univ.com",
+    "phone": "+226 78 33 22 11",
+    "address": "Koudougou, Secteur 3",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Doctorat - Systèmes Embarqués",
+        "level": "Doctorat",
+        "average": "17.4",
+        "rank": "1er / 14",
+        "activities": ["Club Matériel & Low-Level", "Recherche IoT"],
+        "trophies": ["🏆 Major de Promotion", "🥇 Prix d'Innovation Technique"]
+      }
+    ]
+  },
+  {
+    "id": "DOC008",
+    "name": "Camille Simon",
+    "email": "camille.simon@univ.com",
+    "phone": "+33 6 33 22 11 00",
+    "address": "Toulouse, Rangueil",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Doctorat - Intelligence Artificielle",
+        "level": "Doctorat",
+        "average": "17.1",
+        "rank": "2e / 22",
+        "activities": ["Laboratoire IA", "Recherche Machine Learning"],
+        "trophies": ["🥈 Mention Très Honorable", "🥇 Prix de Recherche Avancée"]
+      }
+    ]
+  },
+  {
+    "id": "DOC009",
+    "name": "Issouf Kaboré",
+    "email": "issouf.kabore@univ.com",
+    "phone": "+226 74 55 66 77",
+    "address": "Ouagadougou, Ouaga 2000",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Doctorat - Économie du Développement",
+        "level": "Doctorat",
+        "average": "16.3",
+        "rank": "5e / 30",
+        "activities": ["Groupe de Réflexion Économique", "Colloques"],
+        "trophies": ["🥈 Mention Honorable"]
+      }
+    ]
+  },
+  {
+    "id": "DOC010",
+    "name": "Julie Gauthier",
+    "email": "julie.gauthier@univ.com",
+    "phone": "+33 6 44 33 22 11",
+    "address": "Strasbourg, Esplanade",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Doctorat - Sociologie Contemporaine",
+        "level": "Doctorat",
+        "average": "16.7",
+        "rank": "3e / 19",
+        "activities": ["Laboratoire de Sociologie", "Enquêtes de Terrain"],
+        "trophies": ["🥈 Mention Très Honorable"]
+      }
+    ]
+  },
+  {
+    "id": "DOC011",
+    "name": "Alassane Sawadogo",
+    "email": "alassane.sawadogo@univ.com",
+    "phone": "+226 79 11 00 22",
+    "address": "Bobo-Dioulasso, Polytechnic",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Doctorat - Énergies Renouvelables",
+        "level": "Doctorat",
+        "average": "17.0",
+        "rank": "2e / 15",
+        "activities": ["Projet Solaire", "Recherche Appliquée"],
+        "trophies": ["🥈 Mention Très Honorable", "🥇 Prix de l'Innovation Verte"]
+      }
+    ]
+  },
+  {
+    "id": "DOC012",
+    "name": "Charlotte Roux",
+    "email": "charlotte.roux@univ.com",
+    "phone": "+33 6 99 00 11 22",
+    "address": "Marseille, Luminy",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Doctorat - Biologie Moléculaire",
+        "level": "Doctorat",
+        "average": "17.3",
+        "rank": "1er / 17",
+        "activities": ["Laboratoire de Biotechnologie", "Publications"],
+        "trophies": ["🏆 Major de Promotion", "🥇 Prix de Recherche Médicale"]
+      }
+    ]
+  },
+  {
+    "id": "DOC013",
+    "name": "Salimata Tiendrebéogo",
+    "email": "salimata.tiendrebeogo@univ.com",
+    "phone": "+226 72 33 44 55",
+    "address": "Koudougou, Secteur 1",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Doctorat - Informatique Décisionnelle",
+        "level": "Doctorat",
+        "average": "16.6",
+        "rank": "4e / 20",
+        "activities": ["Club Data Science", "Séminaires Doctoraux"],
+        "trophies": ["🥈 Mention Très Honorable"]
+      }
+    ]
+  },
+  {
+    "id": "DOC014",
+    "name": "Maxime Petit",
+    "email": "maxime.petit@univ.com",
+    "phone": "+33 6 22 11 00 99",
+    "address": "Lille, Villeneuve d'Ascq",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Doctorat - Réseaux Haut Débit",
+        "level": "Doctorat",
+        "average": "16.8",
+        "rank": "3e / 16",
+        "activities": ["Labo Télécom", "Recherche 5G/6G"],
+        "trophies": ["🥈 Mention Très Honorable"]
+      }
+    ]
+  },
+  {
+    "id": "DOC015",
+    "name": "Aïcha Barry",
+    "email": "aicha.barry@univ.com",
+    "phone": "+226 75 99 88 77",
+    "address": "Ouagadougou, Cité An III",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Doctorat - Sciences de l'Éducation",
+        "level": "Doctorat",
+        "average": "16.4",
+        "rank": "6e / 25",
+        "activities": ["Séminaire Pédagogique", "Articles Académiques"],
+        "trophies": ["🥈 Mention Honorable"]
+      }
+    ]
+  },
+  {
+    "id": "DOC016",
+    "name": "Antoine Lemaire",
+    "email": "antoine.lemaire@univ.com",
+    "phone": "+33 6 88 77 66 55",
+    "address": "Nantes, Tertre",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Doctorat - Philosophie des Sciences",
+        "level": "Doctorat",
+        "average": "17.1",
+        "rank": "2e / 12",
+        "activities": ["Cercle de Philosophie", "Publications"],
+        "trophies": ["🥈 Mention Très Honorable", "🥇 Prix de Dissertation Philosophique"]
+      }
+    ]
+  },
+  {
+    "id": "DOC017",
+    "name": "Idrissa Compaoré",
+    "email": "idrissa.compaore@univ.com",
+    "phone": "+226 70 22 11 44",
+    "address": "Ouagadougou, Zogona",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Doctorat - Sécurité Informatique et Cryptographie",
+        "level": "Doctorat",
+        "average": "17.6",
+        "rank": "1er / 15",
+        "activities": ["Cyber Defense Lab", "Recherche en Cryptographie"],
+        "trophies": ["🏆 Major de Promotion", "🥇 Prix National de Recherche en Sécurité"]
+      }
+    ]
+  },
+  {
+    "id": "DOC018",
+    "name": "Mathilde Morel",
+    "email": "mathilde.morel@univ.com",
+    "phone": "+33 6 12 34 56 78",
+    "address": "Rennes, Beaulieu",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Doctorat - Chimie Organique",
+        "level": "Doctorat",
+        "average": "16.9",
+        "rank": "3e / 20",
+        "activities": ["Laboratoire de Chimie", "Brevets Scientifiques"],
+        "trophies": ["🥈 Mention Très Honorable"]
+      }
+    ]
+  },
+  {
+    "id": "DOC019",
+    "name": "Wendpanga Kaboré",
+    "email": "wendpanga.kabore@univ.com",
+    "phone": "+226 77 44 55 66",
+    "address": "Koudougou, Secteur 4",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Doctorat - Architecture des Systèmes Distribués",
+        "level": "Doctorat",
+        "average": "17.2",
+        "rank": "2e / 14",
+        "activities": ["Cloud & Distributed Systems Lab", "Open Source"],
+        "trophies": ["🥈 Mention Très Honorable", "🥇 Prix d'Excellence Technique"]
+      }
+    ]
+  },
+  {
+    "id": "DOC020",
+    "name": "Benjamin Girard",
+    "email": "benjamin.girard@univ.com",
+    "phone": "+33 6 54 32 10 98",
+    "address": "Montpellier, Richter",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Doctorat - Géographie et Aménagement",
+        "level": "Doctorat",
+        "average": "16.5",
+        "rank": "5e / 22",
+        "activities": ["Cartographie Avancée", "Études Urbaines"],
+        "trophies": ["🥈 Mention Très Honorable"]
+      }
+    ]
+  },
+  {
+    "id": "DOC021",
+    "name": "Fatoumata Sanfo",
+    "email": "fatoumata.sanfo@univ.com",
+    "phone": "+226 73 11 00 99",
+    "address": "Bobo-Dioulasso, Sarfalao",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Doctorat - Gestion des Entreprises",
+        "level": "Doctorat",
+        "average": "16.7",
+        "rank": "4e / 25",
+        "activities": ["Junior Conseil", "Recherche en Management"],
+        "trophies": ["🥈 Mention Très Honorable"]
+      }
+    ]
+  },
+  {
+    "id": "DOC022",
+    "name": "Lucas Robert",
+    "email": "lucas.robert@univ.com",
+    "phone": "+33 6 98 76 54 32",
+    "address": "Grenoble, Saint-Martin-d'Hères",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Doctorat - Nanotechnologies",
+        "level": "Doctorat",
+        "average": "17.4",
+        "rank": "1er / 10",
+        "activities": ["Laboratoire de Nanosciences", "Publications IEEE"],
+        "trophies": ["🏆 Major de Promotion", "🥇 Prix d'Innovation Technologique"]
+      }
+    ]
+  },
+  {
+    "id": "DOC023",
+    "name": "Fatimata Ouédraogo",
+    "email": "fatimata.ouedraogo@univ.com",
+    "phone": "+226 71 44 33 22",
+    "address": "Ouagadougou, Gounghin",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Doctorat - Linguistique et Traitement Automatique",
+        "level": "Doctorat",
+        "average": "17.0",
+        "rank": "2e / 18",
+        "activities": ["Recherche NLP", "Projet Multilingue"],
+        "trophies": ["🥈 Mention Très Honorable", "🥇 Prix de Recherche Linguistique"]
+      }
+    ]
+  },
+  {
+    "id": "DOC024",
+    "name": "Jules Caron",
+    "email": "jules.caron@univ.com",
+    "phone": "+33 6 45 35 25 15",
+    "address": "Nice, Carl One",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Doctorat - Astrophysique",
+        "level": "Doctorat",
+        "average": "17.5",
+        "rank": "1er / 12",
+        "activities": ["Observatoire Astronomique", "Modélisation Spatiale"],
+        "trophies": ["🏆 Major de Promotion", "🥇 Prix d'Excellence Scientifique"]
+      }
+    ]
+  },
+  {
+    "id": "DOC025",
+    "name": "Aminata Compaoré",
+    "email": "aminata.compaore@univ.com",
+    "phone": "+226 78 99 00 11",
+    "address": "Koudougou, Secteur 5",
+    "photo": "../assets/images/default.jpg",
+    "academicHistory": [
+      {
+        "className": "Doctorat - Droit des Affaires Internationales",
+        "level": "Doctorat",
+        "average": "16.8",
+        "rank": "3e / 20",
+        "activities": ["Cercle de Recherche Juridique", "Moots Courts"],
+        "trophies": ["🥈 Mention Très Honorable", "🥇 Prix de la Meilleure Thèse"]
+      }
+    ]
+  }
+]
