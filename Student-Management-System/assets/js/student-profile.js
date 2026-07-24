@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // URL de ton fichier de données ou point d'API (adapte selon ton arborescence)
+    // URL  des données 
     const dataUrl = "../data/students.json"; 
 
-    // ID de l'étudiant actif (tu peux le récupérer dynamiquement ou en dur pour le test)
+    // ID de l'étudiant actif (on peux le récupérer dynamiquement ou en dur pour le test)
     const studentIdToLoad = "1"; 
 
     fetch(dataUrl)

@@ -1,12 +1,104 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Classes</title>
+    <title>Class Management - Academic Application</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/classes.css">
 </head>
 <body>
+<section class="classes-container common-management-view">
+    <!-- En-tête de la section -->
+    <header class="classes-header management-header">
+        <h2>Gestion des Classes</h2>
+        <button id="open-class-modal-btn" class="btn-primary">+ Ajouter une classe</button>
+    </header>
+
+    <!-- Barre de filtres et recherche -->
+    <nav class="classes-filter-toolbar management-toolbar" aria-label="Filtres des classes">
+        <div class="filter-group">
+            <label for="class-cycle-select">Cycle :</label>
+            <select id="class-cycle-select">
+                <option value="all">Tous les cycles</option>
+                <option value="college">Collège</option>
+                <option value="lycee" selected>Lycée</option>
+                <option value="licence">Licence</option>
+                <option value="master">Master</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label for="level-filter">Niveau :</label>
+            <select id="level-filter">
+                <option value="all">Tous les niveaux</option>
+            </select>
+        </div>
+        <div class="search-group">
+            <input type="text" id="class-search-input" placeholder="Rechercher une classe...">
+        </div>
+    </nav>
+
+    <!-- Contenu principal (Tableau des classes) -->
+    <main class="classes-table-responsive management-table-responsive common-data-table-wrapper">
+        <table class="classes-table management-table">
+            <thead>
+                <tr>
+                    <th>Nom de la classe</th>
+                    <th>Cycle</th>
+                    <th>Niveau</th>
+                    <th>Effectif max</th>
+                    <th>Professeur principal</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="classes-table-body">
+                <tr>
+                    <td colspan="6" class="loading-text">Chargement des classes...</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</section>
+
+<!-- Modale d'ajout d'une classe -->
+<div id="add-class-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+        <h3>Ajouter une nouvelle classe</h3>
+        <form id="add-class-form">
+            <div class="form-group">
+                <label for="new-class-name">Nom de la classe :</label>
+                <input type="text" id="new-class-name" required placeholder="Ex: Seconde A">
+            </div>
+            <div class="form-group">
+                <label for="new-class-cycle">Cycle :</label>
+                <select id="new-class-cycle" required>
+                    <option value="Collège">Collège</option>
+                    <option value="Lycée" selected>Lycée</option>
+                    <option value="Licence">Licence</option>
+                    <option value="Master">Master</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="new-class-level">Niveau :</label>
+                <input type="text" id="new-class-level" required placeholder="Ex: Seconde">
+            </div>
+            <div class="form-group">
+                <label for="new-class-capacity">Effectif maximal :</label>
+                <input type="number" id="new-class-capacity" min="1" max="100" value="35" required>
+            </div>
+            <div class="form-group">
+                <label for="new-class-main-teacher">Professeur principal :</label>
+                <input type="text" id="new-class-main-teacher" placeholder="Nom du professeur">
+            </div>
+            <div class="modal-actions">
+                <button type="submit" class="btn-save">Enregistrer</button>
+                <button type="button" id="close-class-modal-btn" class="btn-cancel">Annuler</button>
+            </div>
+        </form>
+    </div>
+</div>
+
     <script src="../assets/js/classes.js"></script>
 </body>
 </html>

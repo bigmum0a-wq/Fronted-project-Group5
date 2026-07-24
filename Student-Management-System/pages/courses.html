@@ -1,13 +1,105 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Courses</title>
-    <link rel="stylesheet" href="../assets/css/courses.css">
+    <title>Course Management - Academic Application</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
+<section class="courses-container management-container">
+    <!-- En-tête de la section -->
+    <header class="courses-header management-header">
+        <h2>Gestion des Cours</h2>
+        <button id="open-course-modal-btn" class="btn-primary">+ Ajouter un cours</button>
+    </header>
 
-    <script src="../assets/js/courses.js"></script>
+    <!-- Barre de filtres et recherche -->
+    <nav class="courses-filter-toolbar management-toolbar" aria-label="Filtres des cours">
+        <div class="filter-group">
+            <label for="course-cycle-select">Cycle :</label>
+            <select id="course-cycle-select">
+                <option value="all">Tous les cycles</option>
+                <option value="college">Collège</option>
+                <option value="lycee" selected>Lycée</option>
+                <option value="licence">Licence</option>
+                <option value="master">Master</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label for="department-filter">Département :</label>
+            <select id="department-filter">
+                <option value="all">Tous les départements</option>
+                <option value="sciences">Sciences</option>
+                <option value="lettres">Lettres & Humanités</option>
+            </select>
+        </div>
+        <div class="search-group">
+            <input type="text" id="course-search-input" placeholder="Rechercher un cours ou un code...">
+        </div>
+    </nav>
+
+    <!-- Contenu principal (Tableau des cours) -->
+    <main class="courses-table-responsive management-table-responsive">
+        <table class="courses-table management-table">
+            <thead>
+                <tr>
+                    <th>Code</th>
+                    <th>Nom du cours</th>
+                    <th>Cycle</th>
+                    <th>Coefficient</th>
+                    <th>Enseignant réf.</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="courses-table-body">
+                <tr>
+                    <td colspan="6" class="loading-text">Chargement des cours...</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</section>
+
+<!-- Modale d'ajout d'un cours -->
+<div id="add-course-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+        <h3>Ajouter un nouveau cours</h3>
+        <form id="add-course-form">
+            <div class="form-group">
+                <label for="new-course-code">Code du cours :</label>
+                <input type="text" id="new-course-code" required placeholder="Ex: MATH101">
+            </div>
+            <div class="form-group">
+                <label for="new-course-name">Nom du cours :</label>
+                <input type="text" id="new-course-name" required placeholder="Ex: Algèbre Avancée">
+            </div>
+            <div class="form-group">
+                <label for="new-course-cycle">Cycle :</label>
+                <select id="new-course-cycle" required>
+                    <option value="Collège">Collège</option>
+                    <option value="Lycée" selected>Lycée</option>
+                    <option value="Licence">Licence</option>
+                    <option value="Master">Master</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="new-course-coef">Coefficient :</label>
+                <input type="number" id="new-course-coef" min="1" max="10" value="2" required>
+            </div>
+            <div class="form-group">
+                <label for="new-course-teacher">Enseignant responsable :</label>
+                <input type="text" id="new-course-teacher" placeholder="Nom de l'enseignant">
+            </div>
+            <div class="modal-actions">
+                <button type="submit" class="btn-save">Enregistrer</button>
+                <button type="button" id="close-course-modal-btn" class="btn-cancel">Annuler</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+    <script src="../assets/js/cours.js"></script>
 </body>
 </html>

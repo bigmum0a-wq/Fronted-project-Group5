@@ -3,10 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teachers</title>
+    <title>Teacher Management - Academic Application</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/teachers.css">
 </head>
 <body>
+<section class="teachers-container common-management-view">
+    <!-- En-tête de la section -->
+    <header class="teachers-header management-header">
+        <h2>Gestion des Enseignants</h2>
+        <button id="open-teacher-modal-btn" class="btn-primary">+ Ajouter un enseignant</button>
+    </header>
+
+    <!-- Barre de filtres et recherche -->
+    <nav class="teachers-filter-toolbar management-toolbar" aria-label="Filtres des enseignants">
+        <div class="filter-group">
+            <label for="teacher-department-select">Département :</label>
+            <select id="teacher-department-select">
+                <option value="all">Tous les départements</option>
+                <option value="sciences">Sciences</option>
+                <option value="lettres">Lettres & Humanités</option>
+                <option value="mathematiques">Mathématiques</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label for="status-filter">Statut :</label>
+            <select id="status-filter">
+                <option value="all">Tous les statuts</option>
+                <option value="permanent">Permanent</option>
+                <option value="vacataire">Vacataire</option>
+            </select>
+        </div>
+        <div class="search-group">
+            <input type="text" id="teacher-search-input" placeholder="Rechercher par nom ou ID...">
+        </div>
+    </nav>
+
+    <!-- Contenu principal (Tableau des enseignants) -->
+    <main class="teachers-table-responsive management-table-responsive common-data-table-wrapper">
+        <table class="teachers-table management-table">
+            <thead>
+                <tr>
+                    <th>Photo</th>
+                    <th>ID</th>
+                    <th>Nom complet</th>
+                    <th>Département</th>
+                    <th>Spécialité</th>
+                    <th>Email</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="teachers-table-body">
+                <tr>
+                    <td colspan="7" class="loading-text">Chargement des enseignants...</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</section>
+
+<!-- Modale d'ajout d'un enseignant -->
+<div id="add-teacher-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+        <h3>Ajouter un nouvel enseignant</h3>
+        <form id="add-teacher-form">
+            <div class="form-group">
+                <label for="new-teacher-id">ID :</label>
+                <input type="text" id="new-teacher-id" required placeholder="Ex: TCH015">
+            </div>
+            <div class="form-group">
+                <label for="new-teacher-name">Nom complet :</label>
+                <input type="text" id="new-teacher-name" required placeholder="Prénom et Nom">
+            </div>
+            <div class="form-group">
+                <label for="new-teacher-department">Département :</label>
+                <select id="new-teacher-department" required>
+                    <option value="Sciences">Sciences</option>
+                    <option value="Lettres" selected>Lettres & Humanités</option>
+                    <option value="Mathématiques">Mathématiques</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="new-teacher-specialty">Spécialité :</label>
+                <input type="text" id="new-teacher-specialty" required placeholder="Ex: Physique-Chimie">
+            </div>
+            <div class="form-group">
+                <label for="new-teacher-email">Email :</label>
+                <input type="email" id="new-teacher-email" placeholder="email@school.com">
+            </div>
+            <div class="form-group">
+                <label for="new-teacher-phone">Téléphone :</label>
+                <input type="text" id="new-teacher-phone" placeholder="+226 ...">
+            </div>
+            <div class="modal-actions">
+                <button type="submit" class="btn-save">Enregistrer</button>
+                <button type="button" id="close-teacher-modal-btn" class="btn-cancel">Annuler</button>
+            </div>
+        </form>
+    </div>
+</div>
+
     <script src="../assets/js/teachers.js"></script>
 </body>
 </html>
