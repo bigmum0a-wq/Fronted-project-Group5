@@ -12,89 +12,117 @@
     <!-- En-tête de la section -->
     <header class="settings-header management-header">
         <h2>Paramètres de l'Application</h2>
-        <button id="save-settings-btn" class="btn-save">Enregistrer les modifications</button>
     </header>
 
-    <!-- Contenu principal des paramètres divisé en cartes/sections -->
-    <main class="settings-content-grid">
-        
-        <!-- Section 1 : Informations Générales de l'Établissement -->
-        <div class="settings-card">
-            <h3>Informations de l'Établissement</h3>
-            <form id="school-info-form">
-                <div class="form-group">
-                    <label for="school-name">Nom de l'école :</label>
-                    <input type="text" id="school-name" value="School Management">
-                </div>
-                <div class="form-group">
-                    <label for="academic-year">Année académique en cours :</label>
-                    <input type="text" id="academic-year" value="2025-2026">
-                </div>
-                <div class="form-group">
-                    <label for="school-email">Email institutionnel :</label>
-                    <input type="email" id="school-email" value="contact@schoolmanagement.edu">
-                </div>
-            </form>
-        </div>
+    <!-- Structure principale : Menu latéral + Contenu dynamique -->
+    <div class="settings-layout">
+        <!-- Menu de navigation des paramètres -->
+        <nav class="settings-menu" aria-label="Menu des paramètres">
+            <button class="settings-tab-btn active" data-target="general-section">Général</button>
+            <button class="settings-tab-btn" data-target="appearance-section">Apparence</button>
+            <button class="settings-tab-btn" data-target="data-section">Données & Cache</button>
+        </nav>
 
-        <!-- Section 2 : Préférences d'Affichage & Système -->
-        <div class="settings-card">
-            <h3>Préférences Système</h3>
-            <form id="system-prefs-form">
-                <div class="form-group">
-                    <label for="language-select">Langue par défaut :</label>
-                    <select id="language-select">
-                        <option value="fr" selected>Français</option>
-                        <option value="en">English</option>
-                    </select>
+        <!-- Conteneur des sections de contenu -->
+        <main class="settings-content-area">
+            
+            <!-- Section 1 : Général (Informations de l'école & Sécurité admin) -->
+            <div id="general-section" class="settings-section active">
+                <h3>Informations Générales de l'Établissement</h3>
+                
+                <!-- Vue en lecture seule (Affichage propre) -->
+                <div id="school-info-display" class="info-display-box">
+                    <div class="info-row">
+                        <span class="info-label">Nom de l'école :</span>
+                        <span id="display-school-name" class="info-value">School Management</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Année académique :</span>
+                        <span id="display-academic-year" class="info-value">2025-2026</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Email institutionnel :</span>
+                        <span id="display-school-email" class="info-value">contact@schoolmanagement.edu</span>
+                    </div>
+                    <button type="button" id="enable-edit-btn" class="btn-primary" style="margin-top: 1.5rem;">Modifier les informations</button>
                 </div>
-                <div class="form-group">
-                    <label for="theme-select">Thème de l'interface :</label>
-                    <select id="theme-select">
-                        <option value="light" selected>Clair (Défaut)</option>
-                        <option value="dark">Sombre</option>
-                    </select>
-                </div>
-                <div class="form-group checkbox-group">
-                    <label>
-                        <input type="checkbox" id="notifications-toggle" checked> Activer les notifications sonores
-                    </label>
-                </div>
-            </form>
-        </div>
 
-        <!-- Section 3 : Sécurité et Compte -->
-        <div class="settings-card">
-            <h3>Sécurité du Compte</h3>
-            <form id="security-form">
-                <div class="form-group">
-                    <label for="current-password">Mot de passe actuel :</label>
-                    <input type="password" id="current-password" placeholder="••••••••">
+                <!-- Formulaire d'authentification admin (Caché par défaut) -->
+                <div id="admin-auth-container" style="display: none;">
+                    <p class="settings-desc">Veuillez entrer vos identifiants administrateur pour autoriser la modification.</p>
+                    <form id="admin-auth-form">
+                        <div class="form-group">
+                            <label for="admin-user">Nom d'utilisateur Admin :</label>
+                            <input type="text" id="admin-user" required placeholder="admin">
+                        </div>
+                        <div class="form-group">
+                            <label for="admin-pass">Mot de passe :</label>
+                            <input type="password" id="admin-pass" required placeholder="••••••••">
+                        </div>
+                        <div class="modal-actions">
+                            <button type="submit" class="btn-save">Valider</button>
+                            <button type="button" id="cancel-auth-btn" class="btn-cancel">Annuler</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="form-group">
-                    <label for="new-password">Nouveau mot de passe :</label>
-                    <input type="password" id="new-password" placeholder="••••••••">
-                </div>
-                <div class="form-group">
-                    <label for="confirm-password">Confirmer le mot de passe :</label>
-                    <input type="password" id="confirm-password" placeholder="••••••••">
-                </div>
-            </form>
-        </div>
 
-        <!-- Section 4 : Gestion des Données / Sauvegarde -->
-        <div class="settings-card">
-            <h3>Données et Sauvegarde</h3>
-            <p class="settings-desc">Exportez ou nettoyez les données locales de l'application selon vos besoins.</p>
-            <div class="settings-actions-group">
-                <button type="button" id="export-data-btn" class="btn-primary">Exporter les données (JSON)</button>
-                <button type="button" id="clear-cache-btn" class="btn-cancel">Vider le cache</button>
+                <!-- Formulaire réel des champs modifiables (Caché par défaut) -->
+                <form id="school-info-form" style="display: none; margin-top: 1.5rem;">
+                    <div class="form-group">
+                        <label for="school-name">Nom de l'école :</label>
+                        <input type="text" id="school-name" value="School Management" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="academic-year">Année académique :</label>
+                        <input type="text" id="academic-year" value="2025-2026" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="school-email">Email institutionnel :</label>
+                        <input type="email" id="school-email" value="contact@schoolmanagement.edu" required>
+                    </div>
+                    <div class="modal-actions">
+                        <button type="submit" class="btn-save">Enregistrer les modifications</button>
+                        <button type="button" id="cancel-edit-btn" class="btn-cancel">Fermer</button>
+                    </div>
+                </form>
             </div>
-        </div>
 
-    </main>
+            <!-- Section 2 : Apparence -->
+            <div id="appearance-section" class="settings-section">
+                <h3>Préférences d'Affichage</h3>
+                <form id="appearance-form">
+                    <div class="form-group">
+                        <label for="language-select">Langue :</label>
+                        <select id="language-select">
+                            <option value="fr" selected>Français</option>
+                            <option value="en">English</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="theme-select">Thème :</label>
+                        <select id="theme-select">
+                            <option value="light" selected>Clair</option>
+                            <option value="dark">Sombre</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Section 3 : Données -->
+            <div id="data-section" class="settings-section">
+                <h3>Gestion des Données</h3>
+                <p class="settings-desc">Gérez la persistance et l'exportation des données de votre application.</p>
+                <div class="settings-actions-group">
+                    <button type="button" id="export-data-btn" class="btn-primary">Exporter les données (JSON)</button>
+                    <button type="button" id="clear-cache-btn" class="btn-cancel">Vider le cache local</button>
+                </div>
+            </div>
+
+        </main>
+    </div>
 </section>
 
+    <!-- Lien vers le fichier JavaScript dédié -->
     <script src="../assets/js/settings.js"></script>
 </body>
 </html>

@@ -1,0 +1,124 @@
+/* Layout global des paramètres en mode 2 colonnes (Menu + Contenu) */
+.settings-layout {
+    display: flex;
+    gap: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    padding: 1.5rem;
+    min-height: 400px;
+    box-sizing: border-box;
+}
+
+/* Menu de navigation latéral des paramètres */
+.settings-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    min-width: 200px;
+    border-right: 1px solid #eaeaea;
+    padding-right: 1.5rem;
+}
+
+.settings-tab-btn {
+    background: none;
+    border: none;
+    text-align: left;
+    padding: 0.75rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #555;
+    transition: all 0.2s ease;
+}
+
+.settings-tab-btn:hover {
+    background-color: #f8f9fa;
+    color: #000;
+}
+
+.settings-tab-btn.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Zone d'affichage du contenu dynamique */
+.settings-content-area {
+    flex: 1;
+}
+
+.settings-section {
+    display: none; /* Masqué par défaut */
+}
+
+.settings-section.active {
+    display: block; /* Affiché uniquement si actif */
+}
+
+.settings-section h3 {
+    margin-bottom: 1.2rem;
+    font-size: 1.15rem;
+    color: #333;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 0.5rem;
+}
+
+.settings-desc {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.settings-actions-group {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.info-display-box {
+    background: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 1.2rem;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.info-row:last-of-type {
+    border-bottom: none;
+}
+
+.info-label {
+    font-weight: 500;
+    color: #555;
+}
+
+.info-value {
+    color: #222;
+    font-weight: 600;
+}
+
+/* Adaptation responsive pour les petits écrans (le menu passe au-dessus) */
+@media (max-width: 768px) {
+    .settings-layout {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .settings-menu {
+        flex-direction: row;
+        overflow-x: auto;
+        border-right: none;
+        border-bottom: 1px solid #eaeaea;
+        padding-right: 0;
+        padding-bottom: 1rem;
+    }
+    .settings-tab-btn {
+        white-space: nowrap;
+    }
+}
