@@ -15,14 +15,12 @@ navLinks.forEach(link => {
                 return response.text();
             })
             .then(html => {
-                mainContainer.innerHTML = html;
-                
-                // Optionnel : Déclencher une fonction d'initialisation spécifique si elle existe
-                // Par exemple, si on charge students.html, relancer l'initialisation du tableau des étudiants
-                if (pageName === 'students' && typeof loadStudents === 'function') {
-                    loadStudents();
-                }
-            })
+    mainContainer.innerHTML = html; // Remplace le contenu de la zone de droite
+
+    if (pageName === 'attendance' && window.initAttendancePage) {
+        window.initAttendancePage();
+    }
+})
             .catch(error => {
                 mainContainer.innerHTML = `<h2>Chargement de ${pageName} en cours...</h2><p>Le fichier sera bientôt disponible.</p>`;
             });

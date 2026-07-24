@@ -1,12 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Attendance</title>
+
     <link rel="stylesheet" href="../assets/css/attendance.css">
 </head>
+
 <body>
+
+    <div class="attendance-page">
+
+        <h1>Attendance Tracking</h1>
+
+        <div class="attendance-cards">
+
+            <div class="attendance-card attendance-card-present">
+                <h3>Present</h3>
+                <p id="totalPresent">0</p>
+            </div>
+
+            <div class="attendance-card attendance-card-absent">
+                <h3>Absent</h3>
+                <p id="totalAbsent">0</p>
+            </div>
+
+            <div class="attendance-card attendance-card-tardy">
+                <h3>Late</h3>
+                <p id="totalLate">0</p>
+            </div>
+
+        </div>
+
+        <div class="attendance-filters">
+
+            <div>
+                <label for="dateFilter">Date:</label>
+                <input type="date" id="dateFilter">
+            </div>
+
+            <div>
+                <label for="classFilter">Class:</label>
+
+                <select id="classFilter">
+                    <option value="All">All</option>
+                    <option value="L1">L1</option>
+                    <option value="L2">L2</option>
+                    <option value="L3">L3</option>
+                </select>
+
+            </div>
+
+        </div>
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>Student Name</th>
+                    <th>Class</th>
+                    <th>Status</th>
+                </tr>
+
+            </thead>
+
+            <tbody id="attendanceTable">
+
+                <tr data-date="2026-07-24">
+                    <td>Ali Traoré</td>
+                    <td>L1</td>
+                    <td><span class="badge present">Present</span></td>
+                </tr>
+
+                <tr data-date="2026-07-24">
+                    <td>Awa Ouédraogo</td>
+                    <td>L1</td>
+                    <td><span class="badge absent">Absent</span></td>
+                </tr>
+
+                <tr data-date="2026-07-23">
+                    <td>Moussa Sawadogo</td>
+                    <td>L2</td>
+                    <td><span class="badge tardy">Late</span></td>
+                </tr>
+
+                <tr data-date="2026-07-24">
+                    <td>Fatou Diallo</td>
+                    <td>L3</td>
+                    <td><span class="badge present">Present</span></td>
+                </tr>
+
+                <tr data-date="2026-07-23">
+                    <td>Issa Kaboré</td>
+                    <td>L2</td>
+                    <td><span class="badge present">Present</span></td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
     <script src="../assets/js/attendance.js"></script>
+
 </body>
+
 </html>
